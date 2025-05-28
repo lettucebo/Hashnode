@@ -8,6 +8,8 @@ tags: n8n, llm, generative-ai, mcp
 
 ---
 
+## 前言
+
 網路上一大堆都是在介紹如何在 N8N 裡面用 MCP 來呼叫其他工具，但是更多時候我希望 LLM 能直接幫我寫好或是修改 N8N 的工作流程
 
 所以這篇就來介紹如何設定與使用 [**n8n-mcp-server**](https://github.com/leonardsellem/n8n-mcp-server) 來讓 LLM 幫忙操控 N8N
@@ -17,6 +19,8 @@ tags: n8n, llm, generative-ai, mcp
 原因在於說這個專案的實作提供了基本上所有需要編輯工作流程的功能，以下就來記錄安裝過程
 
 ---
+
+## MCP Server 設定
 
 首先當然要先有 Node.JS 的環境，這邊就不多作介紹了
 
@@ -118,6 +122,8 @@ npm run build
 
 ---
 
+## 開始使用
+
 完成後我們就可以實際來操作看看
 
 1. 幫我整理有哪些 Workflow
@@ -166,6 +172,8 @@ Claude:
 ```
 
 ---
+
+### 可用功能
 
 以下是所有 LLM 可以用的功能，可參考 [**Available Tools**](https://github.com/leonardsellem/n8n-mcp-server?tab=readme-ov-file#available-tools)
 
