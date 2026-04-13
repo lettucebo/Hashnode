@@ -4,7 +4,7 @@ datePublished: Tue Feb 20 2018 05:17:21 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpyyqy000202l12lax4dbz
 slug: azure-bot-service-nodejs-01
 canonical: https://medium.com/@abc12207/%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA%E6%95%99%E5%AD%B8-node-js-01-5fdfef99d766
-cover: https://cdn-images-1.medium.com/max/800/1*LqK8azsFPOqfha-eNPxphQ.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070209806/f48c995f-8f90-4929-b116-1481297207ce.png
 
 ---
 
@@ -47,6 +47,6 @@ node app.js
 
 就可以得到以下結果，你也可以修改訊息內容看看輸出會不會改變
 
-![](https://cdn-images-1.medium.com/max/800/1*LqK8azsFPOqfha-eNPxphQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070209806/f48c995f-8f90-4929-b116-1481297207ce.png)
 
 console bot
