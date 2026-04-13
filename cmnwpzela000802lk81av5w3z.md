@@ -4,7 +4,7 @@ datePublished: Sun Jul 08 2018 23:12:35 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzela000802lk81av5w3z
 slug: nuget
 canonical: https://medium.com/@abc12207/nuget-%E5%A5%97%E4%BB%B6%E5%B0%81%E8%A3%9D%E4%B9%8B%E7%9B%B8%E4%BE%9D%E7%89%88%E6%9C%AC%E8%A8%AD%E5%AE%9A-319cfac6ee2e
-cover: https://cdn-images-1.medium.com/max/800/0*BECtlD1BQ14FPn0K.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070308163/709d5693-374d-4c02-b407-7663bedd5f08.png
 
 ---
 
@@ -12,7 +12,7 @@ cover: https://cdn-images-1.medium.com/max/800/0*BECtlD1BQ14FPn0K.png
 
 Nuget dependencies version setting
 
-![](https://cdn-images-1.medium.com/max/800/0*BECtlD1BQ14FPn0K.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070308163/709d5693-374d-4c02-b407-7663bedd5f08.png)
 
 平常有將需要用到的工具發佈為 nuget 套件的習慣，在 ASP.NET MVC 中很常用到的分頁套件：[X.PagedList](https://www.nuget.org/packages/X.PagedList/) 中，其 [X.PagedList.MVC](https://www.nuget.org/packages/X.PagedList.Mvc/) 最近遇到了最新版本有重大改變的問題，所以之前針對 Bootstrap4 所寫的輔助工具([X.PagedList.Mvc.Bootstrap4](https://www.nuget.org/packages/X.PagedList.Mvc.Bootstrap4/))就失效了，被網友開了 Issue，最後決定要跟著 X.PagedList 版本走，但遇到了在 7.2.X 之前是一種版本，7.5.X 之後要換另外一個版本套件的問題，需要在 Nuget 封裝時就設定好，避免誤用錯誤版本
 
