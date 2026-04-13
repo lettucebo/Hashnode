@@ -1,6 +1,6 @@
 ---
 title: "Azure Web App 使用 Zip 進行部署"
-datePublished: Mon Apr 13 2026 04:55:49 GMT+0000 (Coordinated Universal Time)
+datePublished: Fri Feb 23 2018 12:47:34 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpz3sr000402lkcdl5919a
 slug: azure-web-app-zip
 canonical: https://medium.com/@abc12207/azure-web-app-%E4%BD%BF%E7%94%A8-zip-%E9%80%B2%E8%A1%8C%E9%83%A8%E7%BD%B2-36552b4a17f9
