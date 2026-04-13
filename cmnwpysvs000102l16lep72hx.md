@@ -4,7 +4,7 @@ datePublished: Wed Dec 13 2017 08:17:10 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpysvs000102l16lep72hx
 slug: ssms
 canonical: https://medium.com/@abc12207/ssms-%E8%A8%AD%E5%AE%9A%E9%BB%91%E8%89%B2%E4%BD%88%E6%99%AF%E4%B8%BB%E9%A1%8C-d3219e0970b7
-cover: https://cdn-images-1.medium.com/max/800/1*Qoa-6OpI3A_6YbIIhA8csA.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070173802/9be021d1-faef-4b5c-8b1f-15592d91295b.png
 
 ---
 
@@ -26,7 +26,7 @@ cover: https://cdn-images-1.medium.com/max/800/1*Qoa-6OpI3A_6YbIIhA8csA.png
 
 開發工具 Visual Studio 中的佈景主題已經有黑色好一陣子了，資料庫管理工具 SSMS (SQL Server Management Studio) 從 2016 開始就有佈景主題可以選擇，但是一直都沒有相對應的黑色佈景主題
 
-![](https://cdn-images-1.medium.com/max/800/1*Qoa-6OpI3A_6YbIIhA8csA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070173802/9be021d1-faef-4b5c-8b1f-15592d91295b.png)
 
 Original Color Theme
 
@@ -54,13 +54,13 @@ C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio/ssms
 
 打開 SSMS 的設定視窗就會看到黑色佈景主題的選項
 
-![](https://cdn-images-1.medium.com/max/800/1*DjvbUIhL9OYMdE-Xv0fTpQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070176042/dbc16410-059a-487f-a34e-832921ea6f28.png)
 
 Dark Theme
 
 選擇黑色佈景主題並確定後，即會立刻套用黑色佈景主題
 
-![](https://cdn-images-1.medium.com/max/800/1*d-V3qfuyGB7uaoGnboUqXw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070178088/27c2531e-aef9-4232-97fc-a32f2ca68385.png)
 > 不過看起來目前黑色佈景主題還沒全部完成，很多視窗都還是白底，也難怪微軟會把他藏起來，不過總是聊勝於無？
 
-![](https://cdn-images-1.medium.com/max/800/1*Sj-HTNKETsuHyCkfltr9Xw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070180224/4deb6899-a07c-427e-8326-5c3d14ec36ed.png)
