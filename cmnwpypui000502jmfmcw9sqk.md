@@ -1,6 +1,6 @@
 ---
 title: "Chatbot 02 — 使用 Microsoft Bot Framework 建立 Bot Connector"
-datePublished: Mon Apr 13 2026 04:55:31 GMT+0000 (Coordinated Universal Time)
+datePublished: Fri Jun 02 2017 14:11:30 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpypui000502jmfmcw9sqk
 slug: chatbot-02-microsoft-bot-framework-bot-connector
 canonical: https://medium.com/@abc12207/chatbot-02-%E4%BD%BF%E7%94%A8-microsoft-bot-framework-%E5%BB%BA%E7%AB%8B-bot-connector-9d98a8d2f04e
