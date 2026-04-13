@@ -4,7 +4,7 @@ datePublished: Fri Feb 23 2018 12:47:34 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpz3sr000402lkcdl5919a
 slug: azure-web-app-zip
 canonical: https://medium.com/@abc12207/azure-web-app-%E4%BD%BF%E7%94%A8-zip-%E9%80%B2%E8%A1%8C%E9%83%A8%E7%BD%B2-36552b4a17f9
-cover: https://cdn-images-1.medium.com/max/800/1*Fu7GTCEgiFL9m0Lm_4PTMQ.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070225811/2eed2052-69b9-41da-a104-7fe6fd05fb3c.png
 
 ---
 
@@ -28,7 +28,7 @@ https://<app_name>.scm.azurewebsites.net/ZipDeploy
 
 打開後會看到以下 Kudu 畫面
 
-![](https://cdn-images-1.medium.com/max/800/1*Fu7GTCEgiFL9m0Lm_4PTMQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070225811/2eed2052-69b9-41da-a104-7fe6fd05fb3c.png)
 
 Kudu
 
@@ -42,7 +42,7 @@ Kudu
 
 > 如果使用 Visual Studio Code，下面還有更方便的方式
 
-![](https://cdn-images-1.medium.com/max/800/1*53MnpXsi2xf583DA7k6PcA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070228153/df19f9e4-4cab-42b3-b355-c5278c15074c.png)
 
 Finish
 
@@ -54,42 +54,42 @@ Visual Studio Code 提供了一個擴充功能：[Azure App Service](https://mar
 
 安裝完 Azure App Service 擴充功能後，首先我們要先登入 Azure 帳號，點選『Sign in to Azure』進行登入動作
 
-![](https://cdn-images-1.medium.com/max/800/1*SeWEzWrUC8jZ02_Gao4I5Q.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070230074/68ce685c-f5f1-4218-a25f-7cab414bbc8d.png)
 
 登入
 
 登入完畢會列出目前此帳號底下的所有訂閱，到此登入就確認成功完成了
 
-![](https://cdn-images-1.medium.com/max/800/1*Utp-qiwsuJSw2O9t0FBEZA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070231998/1dd3d3f2-9396-4f37-a5c0-1bfeb93b0bc4.png)
 
 列出訂閱
 
 接下來點選『中間向上箭頭符號(↑)』，開始部署動作，點選後中間上方會出現詢問要部署那個資料夾，這邊選擇想要上傳的資料夾，可以透過打字或者方向鍵進行選擇
 
-![](https://cdn-images-1.medium.com/max/800/1*wSSpEhTIj8Y4hC8RX0NBhA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070234120/2a7b5ef2-aa6c-48d5-8c74-96251e7e1c4e.png)
 
 選擇資料夾
 
 選擇完欲上傳之資料夾後，就會要求選擇要放的訂閱
 
-![](https://cdn-images-1.medium.com/max/800/1*9aZNeS_R_L91K_SXVHqg-w.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070236075/a0178239-2eb8-4ace-b744-27ac1cefaade.png)
 
 選擇訂閱
 
 選擇要使用的 Web App
 
-![](https://cdn-images-1.medium.com/max/800/1*g0zrBelRZB2z9sQy_BSIog.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070238051/75e22f62-2dbd-44b4-89ea-c4150de4f3f4.png)
 
 Web App
 
 最後會要求再確認一次，避免上傳到錯誤的 Web App，蓋掉原本正確的檔案
 
-![](https://cdn-images-1.medium.com/max/800/1*iuNTkqF0Qh70cJriWavYbw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070239974/e1ee5b65-77cd-411e-9e00-2c7a2ea53974.png)
 
 Confirm
 
 按下確定後即會開始部署，在輸出視窗會顯示狀態，看到『Deployment to “app-name” completed.』代表部署完畢
 
-![](https://cdn-images-1.medium.com/max/800/1*BSyXeKMPu837yYhEfa7mPw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070242101/320c5db2-8eb0-4589-a33a-3f5c798953e3.png)
 
 Complete
