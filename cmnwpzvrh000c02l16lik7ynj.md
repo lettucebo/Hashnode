@@ -1,6 +1,6 @@
 ---
 title: "Azure Data Service - Day 01 - Intro"
-datePublished: Mon Apr 13 2026 04:56:25 GMT+0000 (Coordinated Universal Time)
+datePublished: Mon Oct 15 2018 16:46:47 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzvrh000c02l16lik7ynj
 slug: azure-data-service-day-01-intro
 canonical: https://medium.com/@abc12207/azure-data-service-day-01-intro-b393ec39422d
