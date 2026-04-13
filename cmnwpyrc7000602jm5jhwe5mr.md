@@ -1,6 +1,6 @@
 ---
 title: "在分開的 Class Library 專案中使用 Entity Framework Core Database First"
-datePublished: Mon Apr 13 2026 04:55:33 GMT+0000 (Coordinated Universal Time)
+datePublished: Wed Dec 13 2017 16:01:01 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpyrc7000602jm5jhwe5mr
 slug: class-library-entity-framework-core-database-first
 canonical: https://medium.com/@abc12207/entity-framework-core-database-first-%E5%9C%A8%E5%88%86%E9%96%8B%E7%9A%84-class-library-%E5%B0%88%E6%A1%88%E4%B8%AD-6856652daebd
