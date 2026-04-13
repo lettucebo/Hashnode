@@ -1,6 +1,6 @@
 ---
 title: "政府共通平台之 RSS 網址錯誤問題"
-datePublished: Mon Apr 13 2026 04:52:14 GMT+0000 (Coordinated Universal Time)
+datePublished: Mon Feb 27 2017 14:19:13 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpui1a000i02jlfw0uffem
 slug: rss
 canonical: https://medium.com/@abc12207/%E6%94%BF%E5%BA%9C%E5%85%B1%E9%80%9A%E5%B9%B3%E5%8F%B0%E4%B9%8B-rss-%E7%B6%B2%E5%9D%80%E9%8C%AF%E8%AA%A4%E5%95%8F%E9%A1%8C-a7dd1f549a3c
