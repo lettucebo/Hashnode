@@ -1,6 +1,6 @@
 ---
 title: "ASP.NET Core 如何設定 ASPNETCORE_ENVIRONMENT 變數"
-datePublished: Mon Apr 13 2026 04:56:01 GMT+0000 (Coordinated Universal Time)
+datePublished: Fri Mar 23 2018 10:22:09 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzd18000702lk2m4n6q5v
 slug: aspnet-core-aspnetcoreenvironment
 canonical: https://medium.com/@abc12207/asp-net-core-%E5%A6%82%E4%BD%95%E8%A8%AD%E5%AE%9A-aspnetcore-environment-%E8%AE%8A%E6%95%B8-b0e17e87c3e
