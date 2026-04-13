@@ -1,6 +1,6 @@
 ---
 title: "The Trello App for Slack 設定教學"
-datePublished: Mon Apr 13 2026 04:55:22 GMT+0000 (Coordinated Universal Time)
+datePublished: Tue Feb 28 2017 05:35:54 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpyj0g000p02jl8sbwchtv
 slug: the-trello-app-for-slack
 canonical: https://medium.com/@abc12207/the-trello-app-for-slack-%E8%A8%AD%E5%AE%9A%E6%95%99%E5%AD%B8-901b92ab65e8
