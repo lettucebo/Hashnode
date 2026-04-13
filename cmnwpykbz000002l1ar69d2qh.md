@@ -4,7 +4,7 @@ datePublished: Thu Mar 02 2017 13:06:46 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpykbz000002l1ar69d2qh
 slug: dapper-microsoftsqlservertypes
 canonical: https://medium.com/@abc12207/dapper-%E4%BD%BF%E7%94%A8-microsoft-sqlserver-types-%E6%89%BE%E4%B8%8D%E5%88%B0%E6%AD%A3%E7%A2%BA%E7%89%88%E6%9C%AC%E5%95%8F%E9%A1%8C-a7848b95b6e5
-cover: https://cdn-images-1.medium.com/max/800/1*3ODL4YJjMuWPaJN-UmLEoQ.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070131774/5ef517cd-dd19-488d-9488-abddb1c0f981.png
 
 ---
 
@@ -16,7 +16,7 @@ Microsoft.SqlServer.Types-could-not-load-file-or-assembly-correct-version
 Could not load file or assembly 'Microsoft.SqlServer.Types, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91
 ```
 
-![](https://cdn-images-1.medium.com/max/800/1*3ODL4YJjMuWPaJN-UmLEoQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070131774/5ef517cd-dd19-488d-9488-abddb1c0f981.png)
 
 ### 緣由
 
