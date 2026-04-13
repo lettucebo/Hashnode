@@ -1,6 +1,6 @@
 ---
 title: "針對 Visual Studio 15.7 以下之版本建置 Microsoft Library Manager.vsix"
-datePublished: Mon Apr 13 2026 04:56:11 GMT+0000 (Coordinated Universal Time)
+datePublished: Tue Aug 14 2018 15:09:21 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzkra000702l1djbc06ek
 slug: visual-studio-157-microsoft-library-managervsix
 canonical: https://medium.com/@abc12207/%E9%87%9D%E5%B0%8D-visual-studio-15-7-%E4%BB%A5%E4%B8%8B%E4%B9%8B%E7%89%88%E6%9C%AC%E5%BB%BA%E7%BD%AE-microsoft-library-manager-vsix-d057ef5a5bf2
