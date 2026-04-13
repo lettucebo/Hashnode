@@ -1,6 +1,6 @@
 ---
 title: "Azure Data Service - Day 02 - Cognitive Service - 辨識 - Computer Vision - 01"
-datePublished: Mon Apr 13 2026 04:56:37 GMT+0000 (Coordinated Universal Time)
+datePublished: Thu Oct 18 2018 09:28:28 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwq04u1000702jr7eyzcrfh
 slug: azure-data-service-day-02-cognitive-service-computer-vision-01
 canonical: https://medium.com/@abc12207/azure-data-service-day-02-cognitive-service-%E8%BE%A8%E8%AD%98-computer-vision-01-c795092ef396
