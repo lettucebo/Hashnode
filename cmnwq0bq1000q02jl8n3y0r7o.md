@@ -1,6 +1,6 @@
 ---
 title: "[IT 鐵人賽] Azure Data Service - Day 04 - Cognitive Service - 辨識 - Video Indexer"
-datePublished: Mon Apr 13 2026 04:56:46 GMT+0000 (Coordinated Universal Time)
+datePublished: Fri Oct 19 2018 15:02:44 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwq0bq1000q02jl8n3y0r7o
 slug: it-azure-data-service-day-04-cognitive-service-video-indexer
 canonical: https://medium.com/@abc12207/it-%E9%90%B5%E4%BA%BA%E8%B3%BD-azure-data-service-day-04-cognitive-service-%E8%BE%A8%E8%AD%98-video-indexer-470c10253ba1
