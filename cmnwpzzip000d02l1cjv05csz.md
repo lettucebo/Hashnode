@@ -1,6 +1,6 @@
 ---
 title: "[IT 鐵人賽] ASP.NET Core 與 Log 紀錄和追蹤的愛恨交織 - Day 02 - ASP.NET Core 內建之 Logger 01"
-datePublished: Mon Apr 13 2026 04:56:30 GMT+0000 (Coordinated Universal Time)
+datePublished: Thu Oct 18 2018 11:53:11 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzzip000d02l1cjv05csz
 slug: it-aspnet-core-log-day-02-aspnet-core-logger-01
 canonical: https://medium.com/@abc12207/it-%E9%90%B5%E4%BA%BA%E8%B3%BD-asp-net-core-%E8%88%87-log-%E7%B4%80%E9%8C%84%E5%92%8C%E8%BF%BD%E8%B9%A4%E7%9A%84%E6%84%9B%E6%81%A8%E4%BA%A4%E7%B9%94-day-02-asp-net-core-%E5%85%A7%E5%BB%BA%E4%B9%8B-logger-01-9d2313bd3a43
