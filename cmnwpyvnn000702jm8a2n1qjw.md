@@ -4,7 +4,7 @@ datePublished: Fri Dec 15 2017 08:40:54 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpyvnn000702jm8a2n1qjw
 slug: aspnet-core-npm-package-wwwrootlib
 canonical: https://medium.com/@abc12207/asp-net-core-%E5%B0%87-npm-package-%E6%AA%94%E6%A1%88%E8%A4%87%E8%A3%BD%E5%88%B0-wwwroot-lib-%E5%BA%95%E4%B8%8B-810ff6e47387
-cover: https://cdn-images-1.medium.com/max/800/1*sMSyzk0vise9SfJ0lmyYfg.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070183793/2551e966-9602-46a0-8888-57385b84a692.png
 
 ---
 
@@ -14,7 +14,7 @@ cover: https://cdn-images-1.medium.com/max/800/1*sMSyzk0vise9SfJ0lmyYfg.png
 
 首先要說的是，在 ASP.NET Core 的專案結構底下，Nuget 已經被設為純後端的套件管理工具了，不能在像以前不論前後端都使用 Nuget 來進行套件管理
 
-![](https://cdn-images-1.medium.com/max/800/1*sMSyzk0vise9SfJ0lmyYfg.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070183793/2551e966-9602-46a0-8888-57385b84a692.png)
 
 Incompatible Nuget
 
@@ -32,13 +32,13 @@ Incompatible Nuget
 
 執行完畢可以輸入gulp 來確認一下安裝是否有成功
 
-![](https://cdn-images-1.medium.com/max/800/1*5XNS9iCRyKjeGbfnafMTIw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070186115/9201ce57-e70a-4883-9d13-c93ec7447317.png)
 
 Gulp Check
 
 接下來在專案的根目錄新增：***gulpfile.js***
 
-![](https://cdn-images-1.medium.com/max/800/1*k648WBhtA0oPXhTr5CWJCw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070188058/8d06dba4-ae94-46f6-b5ea-8a39b8b9f8c3.png)
 
 new gulpfile.js
 
@@ -58,19 +58,19 @@ new gulpfile.js
 
 完成後，打開 Task Runner Explorer 視窗，可以看到列出了三個 Task，若沒有可以按左邊的重新整理按鈕即會出現
 
-![](https://cdn-images-1.medium.com/max/800/1*Eg6YOCz61M7DxwEkiDy6hQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070190155/5faa33ad-bd3a-4d73-8e32-76b27bc9c17d.png)
 
 Task Runner Explorer
 
 我們先手動確認 Task 可以正確執行，在 copy-asset 上面按右鍵並選擇執行
 
-![](https://cdn-images-1.medium.com/max/800/1*HlRAtvUmcHb0vFvNYPiS9w.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070191932/51677d23-fa17-4837-8fd3-14d98a707d23.png)
 
 Run Gulp
 
 可以看到右邊的輸出視窗會顯示結果
 
-![](https://cdn-images-1.medium.com/max/800/1*8plRdSMf4Ywr6olGqR9iCA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070193947/d447c55a-911b-41b4-b3ce-ce25c70f0cc6.png)
 
 gulp output
 
@@ -78,13 +78,13 @@ gulp output
 
 在欲加入的 Task 上按右鍵，移到 Binding 選項上，並選擇欲加入的階段，例如說我希望在建置前就執行此項 Task，所以我就選擇 Before Build 選項
 
-![](https://cdn-images-1.medium.com/max/800/1*EMa4ovTynMEL4EKobH9oHA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070195958/382cb708-8566-482b-8f6e-03bbe1c833fe.png)
 
 Binding Before Build
 
 到此就設定完所有的步驟，可以在每次建置前都執行此 Task
 
-![](https://cdn-images-1.medium.com/max/800/1*BmxClvA8HJCmc25fNStawQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070197989/825b9af4-0674-426f-85ea-bbc52a266afa.png)
 
 wwwroot/lib
 
