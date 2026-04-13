@@ -1,6 +1,6 @@
 ---
 title: "商務版 Office 365 使用 Office Insider 更新版本"
-datePublished: Mon Apr 13 2026 04:55:59 GMT+0000 (Coordinated Universal Time)
+datePublished: Sat Mar 10 2018 00:23:19 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzbhp000402l1egy10dwc
 slug: office-365-office-insider
 canonical: https://medium.com/@abc12207/%E5%95%86%E5%8B%99%E7%89%88-office-365-%E4%BD%BF%E7%94%A8-office-insider-%E6%9B%B4%E6%96%B0%E7%89%88%E6%9C%AC-36fc42b3e82f
