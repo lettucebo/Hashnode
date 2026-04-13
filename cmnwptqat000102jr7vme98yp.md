@@ -1,6 +1,6 @@
 ---
 title: "政府共通平台之轉寄好友修復"
-datePublished: Mon Apr 13 2026 04:51:38 GMT+0000 (Coordinated Universal Time)
+datePublished: Mon Feb 27 2017 02:41:09 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwptqat000102jr7vme98yp
 slug: 5ps5bqc5ywx6yca5bmz5yw5lml6l2j5ae5aw95yl5lu5b6p
 canonical: https://medium.com/@abc12207/%E6%94%BF%E5%BA%9C%E5%85%B1%E9%80%9A%E5%B9%B3%E5%8F%B0%E4%B9%8B%E8%BD%89%E5%AF%84%E5%A5%BD%E5%8F%8B%E4%BF%AE%E5%BE%A9-7e7cb12d347e
