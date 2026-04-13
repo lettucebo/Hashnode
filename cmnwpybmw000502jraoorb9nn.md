@@ -4,7 +4,7 @@ datePublished: Tue Feb 28 2017 05:22:21 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpybmw000502jraoorb9nn
 slug: aspnet-identity-ouath-null
 canonical: https://medium.com/@abc12207/asp-net-identity-ouath-%E7%99%BB%E5%85%A5-null-%E5%95%8F%E9%A1%8C-9c4022e7a8e6
-cover: https://cdn-images-1.medium.com/max/800/1*108ozDTRx2_CuV327_4pCA.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070108084/8fd55a36-961b-4323-a94e-1f46ea908aa9.png
 
 ---
 
@@ -12,7 +12,7 @@ cover: https://cdn-images-1.medium.com/max/800/1*108ozDTRx2_CuV327_4pCA.png
 
 aspnet-identity-null-reference-logininfo-is-null
 
-![](https://cdn-images-1.medium.com/max/800/1*108ozDTRx2_CuV327_4pCA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070108084/8fd55a36-961b-4323-a94e-1f46ea908aa9.png)
 
 最近有幾個案子要辦 Facebook 行銷活動，因為都是小案子，所以就直接用了 Visual Studio 2015 內建的範本，其中就包含了 ASP.NET Identity 功能
 
