@@ -4,7 +4,7 @@ datePublished: Sat Oct 20 2018 04:56:08 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwq0d0s000802jr6gyl3ml0
 slug: it-aspnet-core-log-day-05-elmah-02
 canonical: https://medium.com/@abc12207/it-%E9%90%B5%E4%BA%BA%E8%B3%BD-asp-net-core-%E8%88%87-log-%E7%B4%80%E9%8C%84%E5%92%8C%E8%BF%BD%E8%B9%A4%E7%9A%84%E6%84%9B%E6%81%A8%E4%BA%A4%E7%B9%94-day-05-elmah-02-42e9b8810419
-cover: https://cdn-images-1.medium.com/max/800/1*B9NNmAzguvhwfMncQs7ybg.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070454149/a0702417-5357-4217-a572-7ba53ea36735.png
 
 ---
 
@@ -12,7 +12,7 @@ cover: https://cdn-images-1.medium.com/max/800/1*B9NNmAzguvhwfMncQs7ybg.png
 
 #### .NET Core Logging- Elmah 02
 
-![](https://cdn-images-1.medium.com/max/800/1*B9NNmAzguvhwfMncQs7ybg.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070454149/a0702417-5357-4217-a572-7ba53ea36735.png)
 
 上一篇我們提到了基本的使用方式，接下來的這一篇我們就來講講要怎麼把 Log 放到不同的儲存體上，以及如何過濾 Log
 
@@ -41,7 +41,7 @@ cover: https://cdn-images-1.medium.com/max/800/1*B9NNmAzguvhwfMncQs7ybg.png
 
 這樣就會將錯誤 Log 存成 Xml 格式，並放在指定目錄；以此為例就是在應用程式根目錄底下的 `logs` 資料夾，也可以直接指定絕對路徑，例如：`D:\ErrorLogs`
 
-![](https://cdn-images-1.medium.com/max/800/1*EY1i7nhIEFuKSzwCgiM55w.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070509029/1ac28b57-edb2-408f-9402-bde8b8e57669.png)
 
 要注意的是每一個錯誤 Log 就是一個 Xml 檔案，所以有可能會塞爆檔案系統，或是檔案數量過多，導致系統效能低下
 
@@ -59,7 +59,7 @@ cover: https://cdn-images-1.medium.com/max/800/1*B9NNmAzguvhwfMncQs7ybg.png
 
 這樣即可建立並使用資料庫收集錯誤 Log
 
-![](https://cdn-images-1.medium.com/max/800/1*1HmzOFkwqxuyvpfuzsj5Rw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070510268/ec685ef4-7b65-4748-9684-960e1dbc828a.png)
 
 ---
 
