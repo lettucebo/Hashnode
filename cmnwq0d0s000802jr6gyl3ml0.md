@@ -1,6 +1,6 @@
 ---
 title: "[IT 鐵人賽] ASP.NET Core 與 Log 紀錄和追蹤的愛恨交織 - Day 05 - Elmah - 02"
-datePublished: Mon Apr 13 2026 04:56:48 GMT+0000 (Coordinated Universal Time)
+datePublished: Sat Oct 20 2018 04:56:08 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwq0d0s000802jr6gyl3ml0
 slug: it-aspnet-core-log-day-05-elmah-02
 canonical: https://medium.com/@abc12207/it-%E9%90%B5%E4%BA%BA%E8%B3%BD-asp-net-core-%E8%88%87-log-%E7%B4%80%E9%8C%84%E5%92%8C%E8%BF%BD%E8%B9%A4%E7%9A%84%E6%84%9B%E6%81%A8%E4%BA%A4%E7%B9%94-day-05-elmah-02-42e9b8810419
