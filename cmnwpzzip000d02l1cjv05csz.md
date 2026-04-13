@@ -4,7 +4,7 @@ datePublished: Thu Oct 18 2018 11:53:11 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzzip000d02l1cjv05csz
 slug: it-aspnet-core-log-day-02-aspnet-core-logger-01
 canonical: https://medium.com/@abc12207/it-%E9%90%B5%E4%BA%BA%E8%B3%BD-asp-net-core-%E8%88%87-log-%E7%B4%80%E9%8C%84%E5%92%8C%E8%BF%BD%E8%B9%A4%E7%9A%84%E6%84%9B%E6%81%A8%E4%BA%A4%E7%B9%94-day-02-asp-net-core-%E5%85%A7%E5%BB%BA%E4%B9%8B-logger-01-9d2313bd3a43
-cover: https://cdn-images-1.medium.com/max/800/1*htcRECG4Z7-6zC9zI6mjNA.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070382146/2114d364-34c0-4fd0-9c4e-a75718dd403a.png
 
 ---
 
@@ -12,7 +12,7 @@ cover: https://cdn-images-1.medium.com/max/800/1*htcRECG4Z7-6zC9zI6mjNA.png
 
 #### .NET Core Logging- Logging in ASP.NET Core 01
 
-![](https://cdn-images-1.medium.com/max/800/1*htcRECG4Z7-6zC9zI6mjNA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070382146/2114d364-34c0-4fd0-9c4e-a75718dd403a.png)
 
 ASP.NET Core 其實本身已經內建了一套 Log 工具，透過 DI 的方式注入，就可以直接取得並使用 Log 的物件實體，而且也可以外掛第三方的 Log 架構
 
@@ -49,7 +49,7 @@ Logger 物件提供了不同層級的 Log，共分為六種，定義在 [LogLeve
 
 寫完程式碼後，就可以執行來看看，先在 `terminal`中輸入 `dotnet run` 指令來進行編譯並把應用程式跑起來，跑起來後就可以直接呼叫網頁，最後在 `terminal` 中就可以看到 Log 的輸出結果
 
-![](https://cdn-images-1.medium.com/max/800/1*Xv7aDnzDHF8W9rOgHb2m_g.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070416914/c996e0de-40db-4175-b4e4-744e82bbdc8c.png)
 
 在上圖的第二步驟紅框中，就可以看到 Log 輸出的結果，針對不同層級也會有不同的顯示樣式
 
@@ -69,7 +69,7 @@ Logger 物件提供了不同層級的 Log，共分為六種，定義在 [LogLeve
 
 也可以將例外傳入到 Log 裡
 
-![](https://cdn-images-1.medium.com/max/800/1*cmjRh04zBdglMQAozvuMmw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070418295/84a427c5-f8f1-4d08-b540-d91ff8a54a7f.png)
 
 ---
 
