@@ -4,7 +4,7 @@ datePublished: Tue Feb 28 2017 05:49:13 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpy5kr000102lkd4yjaa8b
 slug: tfs-git
 canonical: https://medium.com/@abc12207/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%BE%9E-tfs-%E8%BD%89%E7%82%BA-git-%E4%B8%A6%E4%BF%9D%E7%95%99%E6%89%80%E6%9C%89%E8%AE%8A%E6%9B%B4%E9%9B%86-4dbadedf0f66
-cover: https://cdn-images-1.medium.com/max/800/0*zkK4OIfcB54AJDSL.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070073775/aac306fb-a4ec-44cf-b0ef-f52b5ae017ba.png
 
 ---
 
@@ -30,15 +30,15 @@ migrate-an-existing-project-from-tfs-to-git-with-changeset-history-intact
 
 *安裝 Chocolatey*
 
-![](https://cdn-images-1.medium.com/max/800/0*zkK4OIfcB54AJDSL.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070073775/aac306fb-a4ec-44cf-b0ef-f52b5ae017ba.png)
 
 *Chocolatey 安裝完畢*
 
-![](https://cdn-images-1.medium.com/max/800/0*rgN2rcQSMmv4bHSA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070075779/04f52595-952f-45de-b772-092f0429ad6d.png)
 
 *確認 Chocolatey 安裝成功*
 
-![](https://cdn-images-1.medium.com/max/800/0*3_SyVtaV8gcsgd47.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070077907/d174f7ec-6679-4909-a4d1-a22ddcf798c1.png)
 
 `若沒有出現指令，可以重開 CMD 視窗`
 
@@ -48,15 +48,15 @@ migrate-an-existing-project-from-tfs-to-git-with-changeset-history-intact
 
 *安裝 git-tf*
 
-![](https://cdn-images-1.medium.com/max/800/0*kAYRbi_vbbl2ZCp1.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070079899/c0b13de5-3f27-450f-a3ae-a3846625c8db.png)
 
 *git-tf 安裝完畢*
 
-![](https://cdn-images-1.medium.com/max/800/0*ndGgr8Jh0g5kjjkq.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070081799/9d3b672c-b2ff-450f-962f-b41e8823e3eb.png)
 
 *確認 git-tf 安裝成功*
 
-![](https://cdn-images-1.medium.com/max/800/0*X0N-ZysLMDiGgsX-.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070083799/04cd192e-1d3b-49a3-ae9b-75ae6818cc6d.png)
 
 ### Step 2 — 複製專案
 
@@ -64,19 +64,19 @@ migrate-an-existing-project-from-tfs-to-git-with-changeset-history-intact
 
 *複製 TFS 專案*
 
-![](https://cdn-images-1.medium.com/max/800/0*hZCjhAMZvuwyAw0i.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070085894/e51d7d19-8ce9-4bfb-9b12-d390e037ca3e.png)
 
 *複製 TFS 專案完畢*
 
-![](https://cdn-images-1.medium.com/max/800/0*89IrDJGjNDiXODF5.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070087874/1abfa3d7-cc19-4c02-b965-307d68e3c1d7.png)
 
 *複製完後之資料夾列表*
 
-![](https://cdn-images-1.medium.com/max/800/0*mq_731D3h-04GI-F.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070090021/21c2a6cc-1ed8-48cc-af81-a89c7e9e0562.png)
 
 *複製完後之 CHANGELOG*
 
-![](https://cdn-images-1.medium.com/max/800/0*a_TZ3rwQI-U6fFxd.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070091887/181608bf-4cc1-4533-80ec-d862086beee2.png)
 
 開始執行後，將會需要輸入驗證資訊(如果是使用 visualstudio.com，則需要使用**替代驗證方式**)，一旦輸入完畢且驗證成功後，就會開始複製階段，其花費的時間會依據變更集的數量與 repository 的大小而定
 
@@ -86,7 +86,7 @@ migrate-an-existing-project-from-tfs-to-git-with-changeset-history-intact
 
 ### Step 4 . Commit & Push
 
-![](https://cdn-images-1.medium.com/max/800/0*sX5luelR7VajqvFm.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070093877/82403dde-8c25-4ff1-a50b-4d27515262f1.png)
 
 完成以上步驟後，就已建立包含變更集完整的 GIT repository，接下來就看要把這個 repository 發行到哪裡去，例如說 GitHub、Bitbucket 或 visualstudio.com
 
