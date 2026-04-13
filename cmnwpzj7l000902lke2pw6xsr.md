@@ -4,7 +4,7 @@ datePublished: Wed Jul 11 2018 16:21:03 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzj7l000902lke2pw6xsr
 slug: firefox
 canonical: https://medium.com/@abc12207/firefox-%E9%A0%81%E7%B1%A4%E8%A8%AD%E5%AE%9A-6684777710bd
-cover: https://cdn-images-1.medium.com/max/800/0*mwBQbPx4_HFyBA-p.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070328976/13aaf799-258b-4c9e-a45b-326ea3c629fd.png
 
 ---
 
@@ -12,7 +12,7 @@ cover: https://cdn-images-1.medium.com/max/800/0*mwBQbPx4_HFyBA-p.png
 
 #### Firefox Setting for myself
 
-![](https://cdn-images-1.medium.com/max/800/0*mwBQbPx4_HFyBA-p.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070328976/13aaf799-258b-4c9e-a45b-326ea3c629fd.png)
 
 Firefox
 
