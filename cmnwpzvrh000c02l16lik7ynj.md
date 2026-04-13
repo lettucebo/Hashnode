@@ -4,7 +4,7 @@ datePublished: Mon Oct 15 2018 16:46:47 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzvrh000c02l16lik7ynj
 slug: azure-data-service-day-01-intro
 canonical: https://medium.com/@abc12207/azure-data-service-day-01-intro-b393ec39422d
-cover: https://cdn-images-1.medium.com/max/800/1*dt35Ws6QRxcJwBQrpdu1PQ.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070396300/68ec465f-97f9-42a7-9dc5-b974ac8c5b54.png
 
 ---
 
@@ -20,7 +20,7 @@ cover: https://cdn-images-1.medium.com/max/800/1*dt35Ws6QRxcJwBQrpdu1PQ.png
 
 ---
 
-![](https://cdn-images-1.medium.com/max/800/1*dt35Ws6QRxcJwBQrpdu1PQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070396300/68ec465f-97f9-42a7-9dc5-b974ac8c5b54.png)
 
 Microsoft Azure 身為一個正統雲端服務提供商，當然也提供了許多相關類型的服務，我在這邊統一稱為 Azure Data Service。
 
