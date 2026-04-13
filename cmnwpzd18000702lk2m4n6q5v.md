@@ -4,7 +4,7 @@ datePublished: Fri Mar 23 2018 10:22:09 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzd18000702lk2m4n6q5v
 slug: aspnet-core-aspnetcoreenvironment
 canonical: https://medium.com/@abc12207/asp-net-core-%E5%A6%82%E4%BD%95%E8%A8%AD%E5%AE%9A-aspnetcore-environment-%E8%AE%8A%E6%95%B8-b0e17e87c3e
-cover: https://cdn-images-1.medium.com/max/800/0*tLzxO3VDjdQWnFVF.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070304111/1af19266-4d6c-4d8a-98ab-6b1c626da871.png
 
 ---
 
@@ -12,7 +12,7 @@ cover: https://cdn-images-1.medium.com/max/800/0*tLzxO3VDjdQWnFVF.png
 
 #### ASP.NET Core How To Set ASPNETCORE\_ENVIRONMENT Variable
 
-![](https://cdn-images-1.medium.com/max/800/0*tLzxO3VDjdQWnFVF.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070304111/1af19266-4d6c-4d8a-98ab-6b1c626da871.png)
 
 asp.net core
 
