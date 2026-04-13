@@ -4,7 +4,7 @@ datePublished: Mon Feb 27 2017 07:26:11 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpux7d000l02jl4ddfdmb2
 slug: windows-port
 canonical: https://medium.com/@abc12207/%E8%AE%8A%E6%9B%B4-windows-%E9%81%A0%E7%AB%AF%E6%A1%8C%E9%9D%A2%E7%9A%84%E9%80%A3%E6%8E%A5%E5%9F%A0-port-33423479ebcd
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776058158844/d8dac075-180e-4a01-9720-56e4b479d924.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070029860/0c12cb25-0a9e-4f8a-8228-7e5f00eb1c2d.png
 
 ---
 
@@ -26,7 +26,7 @@ modifying-the-windows-remote-desktop-port
 
 1. 開啟登錄檔編輯器
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776058158844/d8dac075-180e-4a01-9720-56e4b479d924.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070029860/0c12cb25-0a9e-4f8a-8228-7e5f00eb1c2d.png)
 
 開啟登錄檔編輯器
 
@@ -36,7 +36,7 @@ modifying-the-windows-remote-desktop-port
 
 > HKEY\_LOCAL\_MACHINE\System\CurrentControlSet\Control\TerminalServer\WinStations\**RDP**[**–**](http://briian.com/?p=7129)**Tcp**\**PortNumber**
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776058160897/308e381a-9d37-4e7e-815b-1cc6ff025eac.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070031798/a44d48a2-31c6-4b0d-8a1f-9accc77b19af.png)
 
 3. 修改 Port 號
 
@@ -44,7 +44,7 @@ modifying-the-windows-remote-desktop-port
 
 修改成想要的 port 號即可，舉例來說這邊改成 9938，完成後按下 OK
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776058162925/a40844b0-9af7-4b87-b81c-ffb8187e2197.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070033772/aead3c6b-e9dc-45b3-b7dd-838a3ba5290b.png)
 
 4. 重新開機
 
