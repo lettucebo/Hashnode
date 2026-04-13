@@ -4,7 +4,7 @@ datePublished: Wed Jul 11 2018 16:56:50 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzg50000502l16ypnfhbb
 slug: mac-sip-system-integrity-protection
 canonical: https://medium.com/@abc12207/%E9%97%9C%E9%96%89-mac-%E7%9A%84-sip-system-integrity-protection-8f679c4fdd9e
-cover: https://cdn-images-1.medium.com/max/800/0*GDLgbDbdZaRmwyJm.jpg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070312121/6eb1f82a-c965-4256-83c8-2bee355a5326.jpeg
 
 ---
 
@@ -12,7 +12,7 @@ cover: https://cdn-images-1.medium.com/max/800/0*GDLgbDbdZaRmwyJm.jpg
 
 #### Mac disable System Integrity Protection (SIP)
 
-![](https://cdn-images-1.medium.com/max/800/0*GDLgbDbdZaRmwyJm.jpg)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070312121/6eb1f82a-c965-4256-83c8-2bee355a5326.jpeg)
 
 這篇是要簡單介紹 Mac 要如何關閉 SIP (System Integrity Protection)，若是沒有必要，請不要亂關閉安全保護的機制，這篇是為了 VirtualBox 無法在 Mojave 上使用的其中一篇子文章
 
