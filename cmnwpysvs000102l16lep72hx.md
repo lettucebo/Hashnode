@@ -1,6 +1,6 @@
 ---
 title: "SSMS 設定黑色佈景主題"
-datePublished: Mon Apr 13 2026 04:55:35 GMT+0000 (Coordinated Universal Time)
+datePublished: Wed Dec 13 2017 08:17:10 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpysvs000102l16lep72hx
 slug: ssms
 canonical: https://medium.com/@abc12207/ssms-%E8%A8%AD%E5%AE%9A%E9%BB%91%E8%89%B2%E4%BD%88%E6%99%AF%E4%B8%BB%E9%A1%8C-d3219e0970b7
