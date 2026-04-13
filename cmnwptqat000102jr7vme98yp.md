@@ -4,7 +4,7 @@ datePublished: Mon Feb 27 2017 02:41:09 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwptqat000102jr7vme98yp
 slug: 5ps5bqc5ywx6yca5bmz5yw5lml6l2j5ae5aw95yl5lu5b6p
 canonical: https://medium.com/@abc12207/%E6%94%BF%E5%BA%9C%E5%85%B1%E9%80%9A%E5%B9%B3%E5%8F%B0%E4%B9%8B%E8%BD%89%E5%AF%84%E5%A5%BD%E5%8F%8B%E4%BF%AE%E5%BE%A9-7e7cb12d347e
-cover: https://cdn-images-1.medium.com/max/800/0*VSut9Nftl5BzzX80.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776058141421/3120d353-b046-49f7-a4bf-4786560573c6.png
 
 ---
 
@@ -16,11 +16,11 @@ common-platform-of-the-government-forward-friends-fix
 
 1. 使用轉寄好友功能時，會發生被 XSS 防護擋下，直接進入警告畫面
 
-![](https://cdn-images-1.medium.com/max/800/0*VSut9Nftl5BzzX80.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776058141421/3120d353-b046-49f7-a4bf-4786560573c6.png)
 
 2. 修復第一項後，點擊寄出，其中 xItem 之值變為 null ，導致 mail 與返回頁面之連結錯誤
 
-![](https://cdn-images-1.medium.com/max/800/0*8ZxHnzpyKZXrvVjU.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776058142864/2f21a3b7-79bc-44ac-bdcd-797aed10da08.png)
 
 ### Fix 1. 轉寄好友之 XSS 防護
 
@@ -28,7 +28,7 @@ common-platform-of-the-government-forward-friends-fix
 
 預設 XSS 防護模式為阻斷模式意即若視為 XSS 攻擊，則將此 Request 阻擋下來，並顯示警告頁面
 
-![](https://cdn-images-1.medium.com/max/800/0*_wdjrQLTU2vn6jiA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776058144849/f6beb9f5-2948-49a5-bb0d-d82c3ea04e43.png)
 
 #### 解決方法
 
@@ -38,7 +38,7 @@ common-platform-of-the-government-forward-friends-fix
 
 #### 錯誤畫面
 
-![](https://cdn-images-1.medium.com/max/800/0*GA9FOVPEUEmuzR32.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776058146849/5b50f610-5219-41d7-bf3a-cdc8b9112cf0.png)
 
 #### 發生原因
 
@@ -64,6 +64,6 @@ common-platform-of-the-government-forward-friends-fix
 
 ### 修復完成畫面
 
-![](https://cdn-images-1.medium.com/max/800/0*505JC-_U2jgQ-13v.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776058148981/94a5714f-0fa6-48ca-ba92-0f0b9bc59cfc.png)
 
 修復畫面
