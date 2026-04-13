@@ -1,6 +1,6 @@
 ---
 title: "Dapper 使用 Microsoft.SqlServer.Types 找不到正確版本問題"
-datePublished: Mon Apr 13 2026 04:55:24 GMT+0000 (Coordinated Universal Time)
+datePublished: Thu Mar 02 2017 13:06:46 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpykbz000002l1ar69d2qh
 slug: dapper-microsoftsqlservertypes
 canonical: https://medium.com/@abc12207/dapper-%E4%BD%BF%E7%94%A8-microsoft-sqlserver-types-%E6%89%BE%E4%B8%8D%E5%88%B0%E6%AD%A3%E7%A2%BA%E7%89%88%E6%9C%AC%E5%95%8F%E9%A1%8C-a7848b95b6e5
