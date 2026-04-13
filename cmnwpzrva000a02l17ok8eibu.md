@@ -4,7 +4,7 @@ datePublished: Wed Sep 05 2018 03:21:02 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzrva000a02l17ok8eibu
 slug: visual-studio-iis-express-server
 canonical: https://medium.com/@abc12207/visual-studio-%E7%84%A1%E6%B3%95%E5%95%9F%E5%8B%95-iis-express-server-%E5%95%8F%E9%A1%8C-1f0d134ceea1
-cover: https://cdn-images-1.medium.com/max/800/1*bbMvDuuL4852a-V0Z-M2MA.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070374150/ef8fe627-955a-4269-984d-840906c07c20.png
 
 ---
 
@@ -16,13 +16,13 @@ cover: https://cdn-images-1.medium.com/max/800/1*bbMvDuuL4852a-V0Z-M2MA.png
 
 最近開始遇到一個奇怪的問題就是偶爾 Visual Studio 無法啟動 IIS Express Server 開始進行偵錯，都會出現以下錯誤畫面
 
-![](https://cdn-images-1.medium.com/max/800/1*bbMvDuuL4852a-V0Z-M2MA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070374150/ef8fe627-955a-4269-984d-840906c07c20.png)
 
 首先最快也最簡單的方式就是先把 Visual Studio 重開看看
 
 不型的話則先透過 netstat 來判斷是否網站要使用的 port 已被占用
 
-![](https://cdn-images-1.medium.com/max/800/1*awvMMKgdJdWJAdTFq50O9A.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070376464/ca28bc75-df69-49c8-b465-08e9c6da2209.png)
 
 netstat
 
