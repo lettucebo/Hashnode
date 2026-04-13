@@ -1,6 +1,6 @@
 ---
 title: "Azure Bot Service - 聊天機器人教學 - Node.js - 01"
-datePublished: Mon Apr 13 2026 04:55:43 GMT+0000 (Coordinated Universal Time)
+datePublished: Tue Feb 20 2018 05:17:21 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpyyqy000202l12lax4dbz
 slug: azure-bot-service-nodejs-01
 canonical: https://medium.com/@abc12207/%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA%E6%95%99%E5%AD%B8-node-js-01-5fdfef99d766
