@@ -1,6 +1,6 @@
 ---
 title: "Firefox 設定之個人偏好設定篇"
-datePublished: Mon Apr 13 2026 04:56:09 GMT+0000 (Coordinated Universal Time)
+datePublished: Wed Jul 11 2018 16:21:03 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzj7l000902lke2pw6xsr
 slug: firefox
 canonical: https://medium.com/@abc12207/firefox-%E9%A0%81%E7%B1%A4%E8%A8%AD%E5%AE%9A-6684777710bd
