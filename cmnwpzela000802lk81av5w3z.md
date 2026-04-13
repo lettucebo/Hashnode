@@ -1,6 +1,6 @@
 ---
 title: "Nuget 套件封裝之相依版本設定"
-datePublished: Mon Apr 13 2026 04:56:03 GMT+0000 (Coordinated Universal Time)
+datePublished: Sun Jul 08 2018 23:12:35 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzela000802lk81av5w3z
 slug: nuget
 canonical: https://medium.com/@abc12207/nuget-%E5%A5%97%E4%BB%B6%E5%B0%81%E8%A3%9D%E4%B9%8B%E7%9B%B8%E4%BE%9D%E7%89%88%E6%9C%AC%E8%A8%AD%E5%AE%9A-319cfac6ee2e
