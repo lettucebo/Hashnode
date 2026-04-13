@@ -4,7 +4,7 @@ datePublished: Fri Oct 19 2018 15:02:44 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwq0bq1000q02jl8n3y0r7o
 slug: it-azure-data-service-day-04-cognitive-service-video-indexer
 canonical: https://medium.com/@abc12207/it-%E9%90%B5%E4%BA%BA%E8%B3%BD-azure-data-service-day-04-cognitive-service-%E8%BE%A8%E8%AD%98-video-indexer-470c10253ba1
-cover: https://cdn-images-1.medium.com/max/800/0*EE5isZJChS0iTa8D.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070473207/6423fd4a-4041-4bb2-b918-4cfe3f9aea5e.png
 
 ---
 
@@ -12,7 +12,7 @@ cover: https://cdn-images-1.medium.com/max/800/0*EE5isZJChS0iTa8D.png
 
 #### Azure Data Service - Day 04 - Cognitive Service - Vision - Video Indexer
 
-![](https://cdn-images-1.medium.com/max/800/0*EE5isZJChS0iTa8D.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070473207/6423fd4a-4041-4bb2-b918-4cfe3f9aea5e.png)
 
 前面幾篇都是介紹靜態影像的辨識與分析，那這篇就來到針對影片來做處理。
 
@@ -41,16 +41,16 @@ Cognitive Service 針對影片辨識的部分提供了：Video Indexer
 
 我們直接開啟網站：<https://www.videoindexer.ai/>，點選「登入」，如果沒有帳號就自己註冊啦
 
-![](https://cdn-images-1.medium.com/max/800/1*pqQvheA3xz7NOhzQAM3Czw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070475741/43f80c17-592d-4589-ad2f-6ea3facec016.png)
 > 直接免費試用，如果要付費再透過 Azure 付費就好
 
 登入完後就可以看到以下畫面
 
-![](https://cdn-images-1.medium.com/max/800/1*ucbpqCk0d2ZAVlgDb8ZDNg.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070477428/7a13fa22-0062-49b1-a5de-d820ed939eda.png)
 
 我就使用 Microsoft Ignite 2018 的其中一段影片作為範例：<https://www.youtube.com/watch?v=5quEOAM_jnc>
 
-![](https://cdn-images-1.medium.com/max/800/1*VinvTqDjmD4maxDm77cRgg.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070479487/3d67c16b-fff9-4428-b760-6e761c1eb0b1.png)
 
 點選上傳來上傳影片檔案
 
@@ -63,19 +63,19 @@ Cognitive Service 針對影片辨識的部分提供了：Video Indexer
 * Streaming quality
   選擇影片的編碼方式，有單一編碼、適應性編碼或者是不編碼。
 
-![](https://cdn-images-1.medium.com/max/800/1*F_z5KVV6rh3ZIa2dwBWNpA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070481481/fcd99f4c-71cb-4ad4-91fc-27a7b6f06be1.png)
 
 按下送出後就會開始進行處理。
 
-![](https://cdn-images-1.medium.com/max/800/1*aRVjS-bmNVONeuiF-1rRCw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070483513/1b08c625-07e8-4aa4-b1a5-7dfb984e02c6.png)
 
 處理完畢就回如上圖所顯示，直接點開 Play，來看看相關資訊。
 
-![](https://cdn-images-1.medium.com/max/800/1*t10ipHHbuL0fPwuAjOaEyw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070485523/074ddcdf-0e75-41e9-a182-101acd0bc480.png)
 
 可以在上圖看到 Overview 介面，下面來一一介紹。
 
-![](https://cdn-images-1.medium.com/max/800/1*5Q8rDeNEITPyr6JxO4ewHw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070487905/ca959b46-1ced-414d-b004-31c32da50c2e.png)
 
 首先先來看看影片的播放介面，這就是一般常見的播放介面。
 
@@ -83,33 +83,33 @@ Cognitive Service 針對影片辨識的部分提供了：Video Indexer
 
 二號紅框是影片編碼率，如果在編碼時就有指定自適應性編碼率，就可以有多個編碼品質可以選擇。
 
-![](https://cdn-images-1.medium.com/max/800/1*1oMkeJ27wne5rDcGMF3RKw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070489434/cb827d61-c74b-48e3-b526-fb74065f8561.png)
 
 在人員區塊中，它會秀出所有有在影片中出現的人，如果是名人的話，甚至會自動幫你標記出他是誰，除此之外，在下方有一時間軸，有在影片中出現的時間都會標成黑色，點選後就影片就會自動跳到時間區段。
 
-![](https://cdn-images-1.medium.com/max/800/1*4pywX_XCbYSaORgEH-BBAg.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070491563/301fb8e2-a333-4348-b37b-2e2b29111ac5.png)
 
 這邊會自動判斷出影片中所有的關鍵字，把它一一列出來，同樣的，下方也提供時間軸，有出現關鍵字的時間區段會標為黑色，點選後讓影片可以快進到該關鍵字出現的時間區段。
 
-![](https://cdn-images-1.medium.com/max/800/1*88mXUGtOPH4CGM4Ky5aVrA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070493339/59a29a24-eca8-4f5b-8566-ff06c8cdca93.png)
 
 這區是提供所有場景的 TAG 列表，同樣的會在下面時間軸顯示有出現的時間區段，點選後會自動跳的影片的該時間區段。
 
-![](https://cdn-images-1.medium.com/max/800/1*2vZt1JAjoPKogf4qnzjA5g.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070495393/d2021a7b-b5a7-455d-9886-c8adb3c6bff4.png)
 
 這邊會顯示所有有在影片裡面偵測到不論是文字或者是商標的品牌，都會顯示在這邊。
 
-![](https://cdn-images-1.medium.com/max/800/1*o7I3FouHr6YXFpRmMnj4og.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070497394/ccc89e58-7495-4d4e-86f3-75a19d54f866.png)
 
 也會整合情緒偵測，偵測在影片的每個時間裡的情緒表現為何，把它做成時間軸來顯示。
 
-![](https://cdn-images-1.medium.com/max/800/1*kuSUkKRi99Gil9w5rC9CoQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070499556/3f226d96-1c96-4074-83fe-e49567a63745.png)
 
 最後就是整合了智慧縮圖技術，它會自動尋找精彩焦點自動截圖。
 
 ---
 
-![](https://cdn-images-1.medium.com/max/800/1*WP2Jz4JXnNLNF4OzSPFafw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070501446/81825047-c0b4-45ae-bdf6-505594e10be3.png)
 
 切到另一個頁籤：「Timeline」，這邊主要就是依據時間一一把不論是字幕或者是有在影片中被辨認出來的關鍵字或人物顯示出來
 
