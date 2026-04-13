@@ -4,7 +4,7 @@ datePublished: Wed Dec 13 2017 16:01:01 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpyrc7000602jm5jhwe5mr
 slug: class-library-entity-framework-core-database-first
 canonical: https://medium.com/@abc12207/entity-framework-core-database-first-%E5%9C%A8%E5%88%86%E9%96%8B%E7%9A%84-class-library-%E5%B0%88%E6%A1%88%E4%B8%AD-6856652daebd
-cover: https://cdn-images-1.medium.com/max/800/1*7NmnGr4WwZNfC13lCnFHGw.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070164011/f8adbe07-347b-4686-969b-1e0ffeedcfba.png
 
 ---
 
@@ -20,7 +20,7 @@ cover: https://cdn-images-1.medium.com/max/800/1*7NmnGr4WwZNfC13lCnFHGw.png
 
 首先當然是新增一個 .NetCore Class Library 專案
 
-![](https://cdn-images-1.medium.com/max/800/1*7NmnGr4WwZNfC13lCnFHGw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070164011/f8adbe07-347b-4686-969b-1e0ffeedcfba.png)
 
 新增 .NetCore Class Library 專案
 
@@ -34,13 +34,13 @@ cover: https://cdn-images-1.medium.com/max/800/1*7NmnGr4WwZNfC13lCnFHGw.png
 
 > 20171213 實驗時，.NetCore 2.1.0-preview2-25624-02 連空專案都 Build 不過，直接放棄
 
-![](https://cdn-images-1.medium.com/max/800/1*MJOhwUNS7balUL8cBtZnug.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070166055/02dc4030-ceab-43fd-aa06-8bc52d1f7a20.png)
 
 Microsoft.EntityFrameworkCore.Tools.DotNet
 
 想要使用 Nuget Package 管理工具升級時，發現 Microsoft.NETCore.App 被鎖住無法升級或是降級
 
-![](https://cdn-images-1.medium.com/max/800/1*0NRgkRl8GABNLVchZl1Hjg.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070167943/7ef697bf-36a4-4120-9bee-3323b657efd0.png)
 
 Microsoft.NETCore.App
 
@@ -52,7 +52,7 @@ Microsoft.NETCore.App
 
 加入兩行 **DotNetCliToolReference** 後，Entity Framework Core 就可以正確動作了
 
-![](https://cdn-images-1.medium.com/max/800/1*JT-sKe-Qqdso5z7asRyH0Q.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070170107/da5aad26-1a8e-4824-a24c-4173d15bdee1.png)
 
 Complete
 
