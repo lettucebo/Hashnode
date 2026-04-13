@@ -1,6 +1,6 @@
 ---
 title: "在 Mac OS Mojave 上執行 VirtualBox"
-datePublished: Mon Apr 13 2026 04:56:07 GMT+0000 (Coordinated Universal Time)
+datePublished: Wed Jul 11 2018 16:59:21 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzhnr000602l12yt579w7
 slug: mac-os-mojave-virtualbox
 canonical: https://medium.com/@abc12207/%E5%9C%A8-mac-os-mojave-%E4%B8%8A%E5%9F%B7%E8%A1%8C-virtualbox-6b233559dfc5
