@@ -1,6 +1,6 @@
 ---
 title: "ASP.NET JavaScript 上傳圖片預覽"
-datePublished: Mon Apr 13 2026 04:52:36 GMT+0000 (Coordinated Universal Time)
+datePublished: Mon Feb 27 2017 03:43:56 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpuygy000m02jl4mr92ka4
 slug: aspnet-javascript
 canonical: https://medium.com/@abc12207/asp-net-javascript-%E4%B8%8A%E5%82%B3%E5%9C%96%E7%89%87%E9%A0%90%E8%A6%BD-67baa86f5b2f
