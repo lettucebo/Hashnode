@@ -1,6 +1,6 @@
 ---
 title: "Surface 系列螢幕 3:2 低解析度選項"
-datePublished: Mon Apr 13 2026 04:56:18 GMT+0000 (Coordinated Universal Time)
+datePublished: Tue Sep 04 2018 08:53:09 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzqbu000902l100xg2hwu
 slug: surface-32
 canonical: https://medium.com/@abc12207/surface-%E7%B3%BB%E5%88%97%E8%9E%A2%E5%B9%95-3-2-%E4%BD%8E%E8%A7%A3%E6%9E%90%E5%BA%A6%E9%81%B8%E9%A0%85-725481d1293
