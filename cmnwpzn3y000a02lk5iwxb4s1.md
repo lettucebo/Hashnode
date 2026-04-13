@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Library Manager - ASP.NET Core 管理前端套件的新好工具"
-datePublished: Mon Apr 13 2026 04:56:14 GMT+0000 (Coordinated Universal Time)
+datePublished: Wed Aug 15 2018 09:09:42 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzn3y000a02lk5iwxb4s1
 slug: microsoft-library-manager-aspnet-core
 canonical: https://medium.com/@abc12207/asp-net-core-%E7%AE%A1%E7%90%86%E5%89%8D%E7%AB%AF%E5%A5%97%E4%BB%B6%E7%9A%84%E6%96%B0%E5%A5%BD%E5%B7%A5%E5%85%B7-microsoft-library-manager-a0acbd4be058
