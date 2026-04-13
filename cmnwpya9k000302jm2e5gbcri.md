@@ -1,6 +1,6 @@
 ---
 title: "在IIS執行Java JSP — SERVER 2012R2"
-datePublished: Mon Apr 13 2026 04:55:11 GMT+0000 (Coordinated Universal Time)
+datePublished: Tue Feb 28 2017 05:33:42 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpya9k000302jm2e5gbcri
 slug: iisjava-jsp-server-2012r2
 canonical: https://medium.com/@abc12207/%E5%9C%A8iis%E5%9F%B7%E8%A1%8Cjava-jsp-server-2012r2-671896f20c00
