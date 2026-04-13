@@ -4,7 +4,7 @@ datePublished: Wed Aug 15 2018 09:09:42 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzn3y000a02lk5iwxb4s1
 slug: microsoft-library-manager-aspnet-core
 canonical: https://medium.com/@abc12207/asp-net-core-%E7%AE%A1%E7%90%86%E5%89%8D%E7%AB%AF%E5%A5%97%E4%BB%B6%E7%9A%84%E6%96%B0%E5%A5%BD%E5%B7%A5%E5%85%B7-microsoft-library-manager-a0acbd4be058
-cover: https://cdn-images-1.medium.com/max/800/1*q0E4mqYwEJ6Uk9wn-u2f2A.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070338133/8d956467-7af0-4b63-9a30-5620083c2e14.png
 
 ---
 
@@ -20,11 +20,11 @@ cover: https://cdn-images-1.medium.com/max/800/1*q0E4mqYwEJ6Uk9wn-u2f2A.png
 
 > 備註：LibMan 不是用來取代 npm/yarn 的，我覺得主要是針對後端開發者只是需要用到些微管理前端相關 library，而非重度前端開發者
 
-![](https://cdn-images-1.medium.com/max/800/1*q0E4mqYwEJ6Uk9wn-u2f2A.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070338133/8d956467-7af0-4b63-9a30-5620083c2e14.png)
 
 進入正題，安裝完 [Microsoft Library Manager.vsix](https://blog.developer.money/%E9%87%9D%E5%B0%8D-visual-studio-15-7-%E4%BB%A5%E4%B8%8B%E4%B9%8B%E7%89%88%E6%9C%AC%E5%BB%BA%E7%BD%AE-microsoft-library-manager-vsix-d057ef5a5bf2) 後，於專案上點選右鍵即可看到 **Manage Client-Side Libraries** 選項，點選後即可看到於專案上會新增一檔案 `libman.json`，並已自動開啟
 
-![](https://cdn-images-1.medium.com/max/800/1*oqriBc462WkDCjdcryyLWA.png)![](https://cdn-images-1.medium.com/max/800/1*3_zVC6A8WgaPwgPjTO47kQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070340290/43a057ee-a63f-46b0-8c47-af4cfee83a89.png)![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070342422/1c060653-bae0-4682-9ec7-6f9eabf6ee28.png)
 
 此檔案結構為 json，預設有三個屬性，以下說明一下
 
@@ -50,7 +50,7 @@ libraries 底下的物件常用的屬性有三個：
 
 代表cdnjs上套件之名稱與版本，使用 `@`分隔，套件名稱沒有 IntelliSense 支援，但是版本就有，輸入完套件名稱後打上 `@` 就會出現版本的選單
 
-![](https://cdn-images-1.medium.com/max/800/1*lhqreuZRhynz210Ywn818g.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070344143/a2e9831c-3cac-4eab-9447-6df588ea8897.png)
 
 #### files(選填): String Array
 
@@ -62,7 +62,7 @@ libraries 底下的物件常用的屬性有三個：
 
 代表只需要取得 jquery.min.js 即可，結果如下
 
-![](https://cdn-images-1.medium.com/max/800/1*rx8odCl8VPwIvcXaH--37A.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070346290/2707e71a-533a-426c-9bbb-1c27438fd0aa.png)
 
 #### destination(必選填): string
 
@@ -70,11 +70,11 @@ libraries 底下的物件常用的屬性有三個：
 
 完成以上填寫並存檔後，LibMan 就會自動還原套件檔案，您也可以透過手動觸發或是清除受管理之套件資料夾
 
-![](https://cdn-images-1.medium.com/max/800/1*8diItDuu7tWxKacGsAZWwQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070348138/9e556f94-4385-468f-ad03-517cc64b340e.png)
 
 使用上述範例存檔後，從方案總管上來看會長成這樣
 
-![](https://cdn-images-1.medium.com/max/800/1*Hh4RlwdXyDo1w3UH7I7d1Q.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070350283/97f4b012-b007-47b5-98d4-08a31bd54632.png)
 
 我個人認為這是一個對於後端開發者來說算是挺友善的前端套件管理套件，自從 Nuget 再也無法拿來管理前端套件後，尋尋覓覓應該到此就差不多終結了，希望他不要再死掉了
 
