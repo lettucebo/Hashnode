@@ -4,7 +4,7 @@ datePublished: Mon Feb 27 2017 03:29:46 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpught000h02jlczda6zny
 slug: highlight
 canonical: https://medium.com/@abc12207/%E6%94%BF%E5%BA%9C%E5%85%B1%E9%80%9A%E5%B9%B3%E5%8F%B0%E4%B9%8B%E6%90%9C%E5%B0%8B%E9%97%9C%E9%8D%B5%E5%AD%97highlight-af228905b5cc
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776058153109/75c18544-7189-4d73-bf6d-9363650c40b0.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070023792/71daf27b-a0a9-4204-ba6a-0bea077f5f3f.png
 
 ---
 
@@ -14,7 +14,7 @@ common-platform-of-the-government-search-keyword-highlight
 
 問題為：查詢結果關鍵字沒有被標示出來，如下圖所示。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776058153109/75c18544-7189-4d73-bf6d-9363650c40b0.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070023792/71daf27b-a0a9-4204-ba6a-0bea077f5f3f.png)
 
 ### 解決辦法
 
@@ -32,6 +32,6 @@ highlight 傳遞的三個參數分別為：
 
 ### 完成畫面
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776058154974/cf0b7752-cfe7-491f-bae7-7a4f74e04398.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070025764/e515c6cc-5724-42a1-ab71-bd79c1cd9e85.png)
 
 完成畫面
