@@ -1,6 +1,6 @@
 ---
 title: "Windows MySQL 備份與排程備份（透過指令列方式）"
-datePublished: Mon Apr 13 2026 04:54:48 GMT+0000 (Coordinated Universal Time)
+datePublished: Mon Feb 27 2017 03:53:59 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpxsgi000002lk6vftbmaa
 slug: windows-mysql
 canonical: https://medium.com/@abc12207/windows-mysql-%E5%82%99%E4%BB%BD%E8%88%87%E6%8E%92%E7%A8%8B%E5%82%99%E4%BB%BD-%E9%80%8F%E9%81%8E%E6%8C%87%E4%BB%A4%E5%88%97%E6%96%B9%E5%BC%8F-8dfec04ce0f7
