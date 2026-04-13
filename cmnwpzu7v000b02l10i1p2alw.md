@@ -4,7 +4,7 @@ datePublished: Mon Oct 15 2018 16:08:18 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzu7v000b02l10i1p2alw
 slug: it-aspnet-core-log-day-01
 canonical: https://medium.com/@abc12207/it-%E9%90%B5%E4%BA%BA%E8%B3%BD-asp-net-core-%E8%88%87-log-%E7%B4%80%E9%8C%84%E5%92%8C%E8%BF%BD%E8%B9%A4%E7%9A%84%E6%84%9B%E6%81%A8%E4%BA%A4%E7%B9%94-day-01-%E5%89%8D%E8%A8%80-ea9ef736d95c
-cover: https://cdn-images-1.medium.com/max/800/0*L0SD4o2oOtxjiltk.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070380125/cd45a645-dd46-4dc3-a005-1fdafd5ca919.png
 
 ---
 
@@ -12,7 +12,7 @@ cover: https://cdn-images-1.medium.com/max/800/0*L0SD4o2oOtxjiltk.png
 
 #### .NET Core Logging - Intro
 
-![](https://cdn-images-1.medium.com/max/800/0*L0SD4o2oOtxjiltk.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070380125/cd45a645-dd46-4dc3-a005-1fdafd5ca919.png)
 
 .NET Core
 
@@ -39,27 +39,27 @@ Log 是甚麼？
 
 * [ASP.NET Core 內建之紀錄工具](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/logging/?view=aspnetcore-2.1)
 
-![](https://cdn-images-1.medium.com/max/800/1*htcRECG4Z7-6zC9zI6mjNA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070382146/2114d364-34c0-4fd0-9c4e-a75718dd403a.png)
 
 * [Elmah](https://elmah.github.io/)
 
-![](https://cdn-images-1.medium.com/max/800/1*Xhlk4Q47WTKrI4WtrW52cg.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070384385/0ceb072e-c897-46f6-a609-f7910f83514a.png)
 
 * [log4net](https://logging.apache.org/log4net/)
 
-![](https://cdn-images-1.medium.com/max/800/0*c_94CY420hVEAefp.jpg)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070386325/8e98dd7f-d270-4582-abd0-90612d6726fb.jpeg)
 
 * [NLog](https://nlog-project.org/)
 
-![](https://cdn-images-1.medium.com/max/800/0*IdiZLlz7QCXyIbTZ)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070388249/5d389cbd-de87-4b45-b622-7b1ce5f397a7.png)
 
 * [Application Insight](https://docs.microsoft.com/zh-tw/azure/application-insights/app-insights-overview)
 
-![](https://cdn-images-1.medium.com/max/800/1*MChcTIRt5lUN2xSEQRL-jg.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070390232/067b807f-443d-4615-b655-a3e5aeab3910.png)
 
 * [SeriLog](https://serilog.net/)
 
-![](https://cdn-images-1.medium.com/max/800/1*d0fs0k8VLwuUhsVg2I4UvA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070392351/4d3b3448-9553-44b2-a8ad-ce19f975815d.png)
 
 ---
 
