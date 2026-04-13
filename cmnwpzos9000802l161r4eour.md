@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Library Manager - VS 15.8 版本新樣貌"
-datePublished: Mon Apr 13 2026 04:56:16 GMT+0000 (Coordinated Universal Time)
+datePublished: Mon Sep 03 2018 08:06:15 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzos9000802l161r4eour
 slug: microsoft-library-manager-vs-158
 canonical: https://medium.com/@abc12207/microsoft-library-manager-15-8-%E7%89%88%E6%9C%AC%E6%96%B0%E6%A8%A3%E8%B2%8C-8a1b28d58c9a
