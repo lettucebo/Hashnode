@@ -4,7 +4,7 @@ datePublished: Thu Oct 18 2018 09:28:28 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwq04u1000702jr7eyzcrfh
 slug: azure-data-service-day-02-cognitive-service-computer-vision-01
 canonical: https://medium.com/@abc12207/azure-data-service-day-02-cognitive-service-%E8%BE%A8%E8%AD%98-computer-vision-01-c795092ef396
-cover: https://cdn-images-1.medium.com/max/800/1*BFAg5LjBKcu2RqsBpi9hGw.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070426158/e3ce3deb-bab4-4a5f-8746-815ab8137bdb.png
 
 ---
 
@@ -12,7 +12,7 @@ cover: https://cdn-images-1.medium.com/max/800/1*BFAg5LjBKcu2RqsBpi9hGw.png
 
 ### [IT 鐵人賽] Azure Data Service - Day 02 - Cognitive Service - 辨識 - Computer Vision
 
-![](https://cdn-images-1.medium.com/max/800/1*BFAg5LjBKcu2RqsBpi9hGw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070426158/e3ce3deb-bab4-4a5f-8746-815ab8137bdb.png)
 
 在一般常用的 AI 領域中，電腦視覺肯定是非常常被使用的服務類型，而且其應用類型也很多，從最常見的人臉辨識到自訂的物件偵測等等。
 
@@ -51,7 +51,7 @@ Cognitive Service 在電腦視覺中提供了以下服務：
 
 * [辨識影像中的場景及活動](https://azure.microsoft.com/services/cognitive-services/computer-vision/#analyze)
 
-![](https://cdn-images-1.medium.com/max/800/1*FP-s9dQqp_X2c_IKYqa3oQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070428735/7467142e-c23a-4150-b527-b7b10ee9854e.png)
 
 點開連結後，就會直接到範例網站裡
 
@@ -65,19 +65,19 @@ Cognitive Service 在電腦視覺中提供了以下服務：
 
 * [辨識影像中的名人與地標](https://azure.microsoft.com/services/cognitive-services/computer-vision/#celebrities-landmarks)
 
-![](https://cdn-images-1.medium.com/max/800/1*a7HLaivrHhTMLOkCEwjezw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070430483/ec684a23-ae60-493b-aaf3-1d3cb21bae20.png)
 
 這個服務可以拿來辨識全球大部分名人，像上面的圖片我就是自己上傳一張「周杰倫」的照片為範例，可以在右邊的 JSON 結果上看到它也正確的辨認出了他就是周杰倫，除了人以外，地標也是可以的，範例網站上有一張羅馬競技場的照片，他也的確辨認的出來，我這邊就不再多做截圖了。
 
 * [影像中的光學字元辨識 (OCR)](https://azure.microsoft.com/services/cognitive-services/computer-vision/#text)
 
-![](https://cdn-images-1.medium.com/max/800/1*Nu1DMrRRXdXEk_chg60ZbQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070432731/5836383c-09eb-4b7d-b2b1-08cd11f8dd00.png)
 
 就是很常見的文字辨識，OCR 的全名是 Optical Character Recognition，光學字元辨識，在這服務它使用了深度學習演算法，提供了更好的辨識率，像是大小字等等，已經**支援中文辨識，但是，目前辨識率沒有很好**。
 
 * [手寫辨識](https://azure.microsoft.com/zh-tw/services/cognitive-services/computer-vision/#handwriting)
 
-![](https://cdn-images-1.medium.com/max/800/1*rNlcQfD-gYOglaFcU5_hzQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070434752/f5ffe905-8fc2-43da-b2f1-0e8f0db0a765.png)
 
 其實就還是文字辨識，只是有針對手寫的字跡做調教。
 
@@ -93,18 +93,18 @@ Cognitive Service 提供了 C#、Node.js、Python、Java 與 Ruby SDK (服務涵
 
 > 也可以直接在 Cognitive Service 點選「免費試用」
 
-![](https://cdn-images-1.medium.com/max/800/1*lnFJZW0ZKj7LnMAPcUQi6Q.png)![](https://cdn-images-1.medium.com/max/800/1*ds8d2crX52P4BiO-mnFBBQ.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070436460/5ff3442c-ad86-414d-b35d-9b456d1becc4.png)![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070438649/4c68f7df-0466-4eaf-b1bb-3bddd460b052.png)
 
 1. 點選建立資源
 2. 於搜尋中輸入：「Computer Vision」
 3. 點選「電腦視覺」
 4. 點選「建立」
 
-![](https://cdn-images-1.medium.com/max/800/1*jAgxvy-83FPsYXdlK96o_w.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070440428/b354bcbe-d9e0-46e2-b812-730980fa649e.png)
 
 填寫相關資訊後點選建立
 
-![](https://cdn-images-1.medium.com/max/800/1*EYTt9OhxdrvR3rPXOIScZw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070442349/1d063334-6637-4a2a-ba36-59efc0623ced.png)
 
 建立完成後，我們需要取得金鑰(Key)，按照上圖步驟來開啟金鑰頁面，取得金鑰後，我們先暫時存著，等等會用到。
 
@@ -126,17 +126,17 @@ dotnet add package Microsoft.Azure.CognitiveServices.Vision.ComputerVision
 Install-Package Microsoft.Azure.CognitiveServices.Vision.ComputerVision
 ```
 
-![](https://cdn-images-1.medium.com/max/800/1*fZFI8P9jYfrphjVrGHNuzw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070444617/cad26637-f023-418d-9949-684bd98b0df8.png)
 
 我這邊程式就直接使用 Url 方式來拿到圖片，就不示範存取本機圖片了
 
 先把相關變數設定好，像是 API Key 跟 ImageUrl，我把 apiKey 放在 appsettings.json 裡，圖片我就偷懶用一下蘋果日報的圖片
 
-![](https://cdn-images-1.medium.com/max/800/0*pINZCte-v4t9ZtQ5.jpg)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070446288/dca29578-bd2f-4730-9255-c0583ae82202.jpeg)
 
 接下來我們就把 `ComputerVisionClient` 給 New 起來，並根據 Azure Portal 上之資訊設定 `Endpoint`
 
-![](https://cdn-images-1.medium.com/max/800/1*9qHfYgklmDztSaJlQxj6DA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070448461/c1066597-e543-4920-9bc3-3da74377f918.png)
 
 設定完後，在把圖片送出去之前還有最後一步，就是設定你要取得那些資訊欄位，我在這邊就只設定四個欄位
 
@@ -146,7 +146,7 @@ Install-Package Microsoft.Azure.CognitiveServices.Vision.ComputerVision
 
 結果如下
 
-![](https://cdn-images-1.medium.com/max/800/1*hohNLdQFxG8cKTQc7LT0-Q.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070450306/85d72d29-09c6-4409-bd95-7262c275d611.png)
 > 影片分析其實也是使用相同的方式，只是要將影片切成 Frame，然後再送出去做辨識
 
 完整範例程式：[https://github.com/MoneyYu/2019ItHelpData](https://github.com/MoneyYu/2019ItHelpData/tree/master/Day01-02%20Computer%20Vision)
