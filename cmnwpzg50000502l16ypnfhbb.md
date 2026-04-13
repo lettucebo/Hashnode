@@ -1,6 +1,6 @@
 ---
 title: "關閉 Mac 的 SIP (System Integrity Protection)"
-datePublished: Mon Apr 13 2026 04:56:05 GMT+0000 (Coordinated Universal Time)
+datePublished: Wed Jul 11 2018 16:56:50 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzg50000502l16ypnfhbb
 slug: mac-sip-system-integrity-protection
 canonical: https://medium.com/@abc12207/%E9%97%9C%E9%96%89-mac-%E7%9A%84-sip-system-integrity-protection-8f679c4fdd9e
