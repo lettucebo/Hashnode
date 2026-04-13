@@ -1,6 +1,6 @@
 ---
 title: "Azure Bot Service - 聊天機器人教學 - 04"
-datePublished: Mon Apr 13 2026 04:55:54 GMT+0000 (Coordinated Universal Time)
+datePublished: Mon Feb 26 2018 13:02:14 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpz7hl000502lk57vv27ig
 slug: azure-bot-service-04
 canonical: https://medium.com/@abc12207/azure-bot-service-%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA%E6%95%99%E5%AD%B8-04-bdeb073cbff3
