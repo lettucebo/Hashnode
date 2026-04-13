@@ -4,7 +4,7 @@ datePublished: Tue Sep 04 2018 08:53:09 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzqbu000902l100xg2hwu
 slug: surface-32
 canonical: https://medium.com/@abc12207/surface-%E7%B3%BB%E5%88%97%E8%9E%A2%E5%B9%95-3-2-%E4%BD%8E%E8%A7%A3%E6%9E%90%E5%BA%A6%E9%81%B8%E9%A0%85-725481d1293
-cover: https://cdn-images-1.medium.com/max/800/0*DKa7obLt8jOehxt0
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070366330/229e42c9-7910-4b5e-832a-202647e44a16.jpeg
 
 ---
 
@@ -12,7 +12,7 @@ cover: https://cdn-images-1.medium.com/max/800/0*DKa7obLt8jOehxt0
 
 #### Surface Device Display Resolution 3:2 Alternate Options
 
-![](https://cdn-images-1.medium.com/max/800/0*DKa7obLt8jOehxt0)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070366330/229e42c9-7910-4b5e-832a-202647e44a16.jpeg)
 
 我手頭上有兩台 Surface 裝置，Surface Pro 4 與 Surface Book 2，Surface 裝置的螢幕我覺得實在很不錯，PixelSense 是個好東西，不過對我來說有時候螢幕解析度太高也是個困擾，除了介面元素都會變小以外，也會稍微多耗點資源，所以我通常都習慣把解析度調低一點
 
@@ -26,7 +26,7 @@ cover: https://cdn-images-1.medium.com/max/800/0*DKa7obLt8jOehxt0
 
 下載完成後開啟此機碼檔案
 
-![](https://cdn-images-1.medium.com/max/800/1*LUINoHLe8FHPQ51WSvA0rw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070368482/8e5880e5-789d-48f7-8ac1-006e8eec74d9.png)
 
 點選確定執行(若對檔案內容有疑慮的話就請不要執行)
 
@@ -34,7 +34,7 @@ cover: https://cdn-images-1.medium.com/max/800/0*DKa7obLt8jOehxt0
 
 這樣解析度選項應該就會有很多 3:2 的選項
 
-![](https://cdn-images-1.medium.com/max/800/1*Aim96_kUGYwD8FyvjFRKng.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070370578/37fe8029-f5bc-432a-a98d-c127aa61cb6c.png)
 
 #### 參考
 
