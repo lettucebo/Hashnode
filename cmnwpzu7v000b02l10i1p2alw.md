@@ -1,6 +1,6 @@
 ---
 title: "[IT 鐵人賽] ASP.NET Core 與 Log 紀錄和追蹤的愛恨交織 - Day 01   - 前言"
-datePublished: Mon Apr 13 2026 04:56:23 GMT+0000 (Coordinated Universal Time)
+datePublished: Mon Oct 15 2018 16:08:18 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzu7v000b02l10i1p2alw
 slug: it-aspnet-core-log-day-01
 canonical: https://medium.com/@abc12207/it-%E9%90%B5%E4%BA%BA%E8%B3%BD-asp-net-core-%E8%88%87-log-%E7%B4%80%E9%8C%84%E5%92%8C%E8%BF%BD%E8%B9%A4%E7%9A%84%E6%84%9B%E6%81%A8%E4%BA%A4%E7%B9%94-day-01-%E5%89%8D%E8%A8%80-ea9ef736d95c
