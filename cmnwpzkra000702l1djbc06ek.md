@@ -4,7 +4,7 @@ datePublished: Tue Aug 14 2018 15:09:21 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzkra000702l1djbc06ek
 slug: visual-studio-157-microsoft-library-managervsix
 canonical: https://medium.com/@abc12207/%E9%87%9D%E5%B0%8D-visual-studio-15-7-%E4%BB%A5%E4%B8%8B%E4%B9%8B%E7%89%88%E6%9C%AC%E5%BB%BA%E7%BD%AE-microsoft-library-manager-vsix-d057ef5a5bf2
-cover: https://cdn-images-1.medium.com/max/800/1*LxJU-f_gqgoEK96IahRGgw.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070332148/d2339634-68a9-4307-b0d1-03d289eb0a96.png
 
 ---
 
@@ -40,8 +40,8 @@ Install Error : System.InvalidOperationException: A value for 'Component' needs 
 
 修改完後就可以開啟方案，並調整 Configuration 為 Release 後進行建置
 
-![](https://cdn-images-1.medium.com/max/800/1*LxJU-f_gqgoEK96IahRGgw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070332148/d2339634-68a9-4307-b0d1-03d289eb0a96.png)
 
 建置完後打開相對應之資料夾即可看到產生的 Vsix 檔案，點選進行安裝即可
 
-![](https://cdn-images-1.medium.com/max/800/1*qN4IVkuMIka4bPaLI5gYcA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070334451/b5d79081-565b-43cf-b96a-e0536643230d.png)
