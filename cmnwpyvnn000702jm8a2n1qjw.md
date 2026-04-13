@@ -1,6 +1,6 @@
 ---
 title: "ASP.NET Core 將 NPM Package 檔案複製到 wwwroot/lib 底下"
-datePublished: Mon Apr 13 2026 04:55:39 GMT+0000 (Coordinated Universal Time)
+datePublished: Fri Dec 15 2017 08:40:54 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpyvnn000702jm8a2n1qjw
 slug: aspnet-core-npm-package-wwwrootlib
 canonical: https://medium.com/@abc12207/asp-net-core-%E5%B0%87-npm-package-%E6%AA%94%E6%A1%88%E8%A4%87%E8%A3%BD%E5%88%B0-wwwroot-lib-%E5%BA%95%E4%B8%8B-810ff6e47387
