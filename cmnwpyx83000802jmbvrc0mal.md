@@ -1,6 +1,6 @@
 ---
 title: "在分開的 Class Library 專案中使用 Entity Framework Core 進行 Migrations"
-datePublished: Mon Apr 13 2026 04:55:41 GMT+0000 (Coordinated Universal Time)
+datePublished: Wed Dec 27 2017 12:10:41 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpyx83000802jmbvrc0mal
 slug: class-library-entity-framework-core-migrations
 canonical: https://medium.com/@abc12207/%E5%9C%A8%E5%88%86%E9%96%8B%E7%9A%84-class-library-%E5%B0%88%E6%A1%88%E4%B8%AD%E4%BD%BF%E7%94%A8-entity-framework-core-code-first-%E9%80%B2%E8%A1%8C-migrations-a621aa6fc2e5
