@@ -4,7 +4,7 @@ datePublished: Mon Feb 26 2018 03:37:02 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpz9y0000602lkgbfsgz85
 slug: azure-bot-service-nodejs-03
 canonical: https://medium.com/@abc12207/azure-bot-service-%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA%E6%95%99%E5%AD%B8-node-js-03-87e784e56613
-cover: https://cdn-images-1.medium.com/max/800/1*P_1wcrNxAQz_KmOyr5kKPA.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070278113/1b5722f0-c2be-4c0c-96f7-750376f626df.png
 
 ---
 
@@ -20,19 +20,19 @@ cover: https://cdn-images-1.medium.com/max/800/1*P_1wcrNxAQz_KmOyr5kKPA.png
 
 首先先打開 Portal 到已經建立完成的 Azure Bot Service 並到 Setting 視窗
 
-![](https://cdn-images-1.medium.com/max/800/1*P_1wcrNxAQz_KmOyr5kKPA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070278113/1b5722f0-c2be-4c0c-96f7-750376f626df.png)
 
 Azure Bot Service Portal
 
 點選『Microsoft App ID』旁的『Manage』連結，會連結到管理 Microsoft App ID 與 Microsoft App Password 頁面
 
-![](https://cdn-images-1.medium.com/max/800/1*cTSq71sLsiis-4oAZXqySw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070280446/c6cec7e7-29c5-4625-8700-06ce39f1cbe4.png)
 
 Azure Bot Service 登錄
 
 點選『產生新密碼』得到新的應用程式密碼，**應用程式密碼只會顯示一次**，務必保存下來，忘記就只能產生新的
 
-![](https://cdn-images-1.medium.com/max/800/1*0zOF6WUDNeoWCEymu_e3-g.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070282417/aa7be276-972b-4203-a01f-66d8b0a9fa44.png)
 
 產生新密碼
 
@@ -56,7 +56,7 @@ npm install dotenv-extended
 
 現在要將已經寫好的聊天機器人應用程式發行到遠端以便跟聊天平台溝通，Azure Bot Service 需要以 https 作為開頭的網址為端點，所以這邊使用 Azure Web App 作為承載平台，假設已經完成建立 Web App，可以透過 ZipDeploy 的方式來部署，可參考：[Azure Web App 使用 Zip 進行部署](https://blog.developer.money/azure-web-app-%E4%BD%BF%E7%94%A8-zip-%E9%80%B2%E8%A1%8C%E9%83%A8%E7%BD%B2-36552b4a17f9)
 
-![](https://cdn-images-1.medium.com/max/800/1*BSyXeKMPu837yYhEfa7mPw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070242101/320c5db2-8eb0-4589-a33a-3f5c798953e3.png)
 
 Deploy
 
@@ -66,24 +66,24 @@ Deploy
 
 BotFramework-Emulator 以與 ngrok 整合，不過並沒有直接包含ngrok，所以需要先下載 [ngrok](https://ngrok.com/)，下載完畢後會得到一執行檔（Windows 與 Mac 均是）
 
-![](https://cdn-images-1.medium.com/max/800/1*bOWlE07iPByV71JJ0Zk8Zg.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070284263/7e4c44fb-446e-47aa-81a6-afa624441119.png)
 
 ngrok 執行檔
 
 打開 BotFramework-Emulator 點選『右上方』直線三點打開選單並選擇設定，於 『path to ngrok』中設定 ngrok 執行檔的路徑，按下『Save』
 
-![](https://cdn-images-1.medium.com/max/800/1*UeTcpG259ee9-jqtKgkrXw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070286574/e10bfcaa-39fe-4288-b2d9-11509f86687f.png)
 
 設定 ngrok 路徑
 
 這樣就設定完畢，皆下來就是連線到遠端的聊天機器人
 
-![](https://cdn-images-1.medium.com/max/800/1*ngS1SXgQ37uzVm7VsyP-kw.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070288300/1b88f619-4997-4616-bc77-bc00703ef740.png)
 
 輸入連線資訊
 
 輸入完畢後按下『CONNECT』，這樣就可以開始測試遠端的聊天機器人
 
-![](https://cdn-images-1.medium.com/max/800/1*-A0lCf-7DEvj2v97BaF4zA.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070290567/92d3634f-8f24-4d0f-9cae-1cfe86ca8368.png)
 
 Connect
