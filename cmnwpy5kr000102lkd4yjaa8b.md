@@ -1,6 +1,6 @@
 ---
 title: "版本控制從 TFS 轉為 GIT 並保留所有變更集"
-datePublished: Mon Apr 13 2026 04:55:05 GMT+0000 (Coordinated Universal Time)
+datePublished: Tue Feb 28 2017 05:49:13 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpy5kr000102lkd4yjaa8b
 slug: tfs-git
 canonical: https://medium.com/@abc12207/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%BE%9E-tfs-%E8%BD%89%E7%82%BA-git-%E4%B8%A6%E4%BF%9D%E7%95%99%E6%89%80%E6%9C%89%E8%AE%8A%E6%9B%B4%E9%9B%86-4dbadedf0f66
