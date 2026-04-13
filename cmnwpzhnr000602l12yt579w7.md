@@ -4,7 +4,7 @@ datePublished: Wed Jul 11 2018 16:59:21 GMT+0000 (Coordinated Universal Time)
 cuid: cmnwpzhnr000602l12yt579w7
 slug: mac-os-mojave-virtualbox
 canonical: https://medium.com/@abc12207/%E5%9C%A8-mac-os-mojave-%E4%B8%8A%E5%9F%B7%E8%A1%8C-virtualbox-6b233559dfc5
-cover: https://cdn-images-1.medium.com/max/800/1*1FNpoxMvbF5VMapUyXY31Q.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1776070316113/499414ce-b130-43f0-aeff-0ad034ed1a83.png
 
 ---
 
@@ -14,7 +14,7 @@ cover: https://cdn-images-1.medium.com/max/800/1*1FNpoxMvbF5VMapUyXY31Q.png
 
 最近將我的 MacBookPro 升級到了 Mac OS Mojave Beta，為了要使用 Dark Mode，不過一升級後就發現無法執行 VirtualBox 了，會出現以下錯誤：
 
-![](https://cdn-images-1.medium.com/max/800/1*1FNpoxMvbF5VMapUyXY31Q.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1776070316113/499414ce-b130-43f0-aeff-0ad034ed1a83.png)
 
 原因是因為 Apple 從 Mojave 開始封鎖所有不到 5.3 版本的 kext，而 VirtualBox 剛好使用的是 5.2 版本的 kext，基本上正式的解決方法只能等 Oracle 官方升級 kext 版本
 
