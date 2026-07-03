@@ -1,7 +1,8 @@
 # Hashnode draft automation
 
-This repository is currently a Hashnode markdown backup. The workflow in this
-folder adds the other direction as an explicit, manual action:
+This repository is currently a Hashnode markdown backup. The workflow at
+`.github/workflows/hashnode-draft.yml` adds the other direction as an explicit,
+manual action:
 
 ```text
 Markdown in GitHub

@@ -117,7 +117,10 @@ def normalize_local_asset_url(url: str, markdown_path: Path, raw_base_url: str |
         try:
             rel = abs_img.relative_to(repo_root).as_posix()
         except ValueError:
-            rel = url.lstrip("./")
+            # Do not invent a GitHub raw URL for paths outside this repository.
+            # Leaving the original URL unchanged makes the issue visible to the
+            # author instead of silently pointing Hashnode at the wrong asset.
+            return url
 
     return f"{raw_base_url}/{rel}"
 
@@ -262,7 +265,10 @@ def create_draft(draft_input: dict[str, Any], token: str) -> dict[str, Any]:
     }
     """
     data = graphql_request(mutation, {"input": draft_input}, token)
-    return data["createDraft"]["draft"]
+    draft = (data.get("createDraft") or {}).get("draft")
+    if not draft:
+        raise RuntimeError("Hashnode did not return a draft: " + json.dumps(data, ensure_ascii=False))
+    return draft
 
 
 def main() -> int:

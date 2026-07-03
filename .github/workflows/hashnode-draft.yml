@@ -55,6 +55,6 @@ jobs:
         run: |
           set -euo pipefail
           RAW_BASE_URL="https://raw.githubusercontent.com/${{ github.repository }}/${RAW_REF}"
-          python scripts/hashnode_create_draft.py \
+          python3 scripts/hashnode_create_draft.py \
             "${{ inputs.markdown_file }}" \
             --raw-base-url "$RAW_BASE_URL"
