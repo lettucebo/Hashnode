@@ -1,23 +1,25 @@
-# Hashnode draft automation
+# Controlled Hashnode publishing
 
 This repository is currently a Hashnode markdown backup. The workflow at
 `.github/workflows/hashnode-draft.yml` adds the other direction as an explicit,
-manual action:
+manual control surface:
 
 ```text
 Markdown in GitHub
     ↓ workflow_dispatch
-Hashnode draft
+validate / draft / publish-draft / publish / update
+    ↓
+Hashnode
 ```
 
-It does **not** publish posts automatically. It only creates a draft so the
-article can be reviewed in Hashnode before publishing.
+The safe default is `draft`. Nothing is published unless the workflow input is
+explicitly set to `publish-draft` or `publish`.
 
 ## Required Hashnode setup
 
 Hashnode GraphQL API access now requires API access on the publication. If the
-API returns a paid-access error, enable the required plan/API access in the
-Hashnode dashboard first.
+API returns a paid-access error or HTML instead of JSON, enable the required
+plan/API access in the Hashnode dashboard first.
 
 Create a Hashnode Personal Access Token from:
 
@@ -25,50 +27,53 @@ Create a Hashnode Personal Access Token from:
 https://hashnode.com/settings/developer
 ```
 
-Then configure this repository:
+Then configure this repository.
 
 ### GitHub secrets
 
-Required:
+Required for all real Hashnode API calls:
 
 ```text
 HASHNODE_API_TOKEN
 ```
 
-One of these is also required:
+Optional, but preferred because it avoids an extra API lookup:
 
 ```text
 HASHNODE_PUBLICATION_ID
 ```
 
-or configure this repository variable instead:
+### GitHub variables
+
+If `HASHNODE_PUBLICATION_ID` is not configured, set this repository variable:
 
 ```text
 HASHNODE_PUBLICATION_HOST=blog.yu.money
 ```
 
-`HASHNODE_PUBLICATION_ID` is preferred because it avoids an extra API lookup.
-`HASHNODE_PUBLICATION_HOST` is more convenient when setting things up the first
-time.
+`HASHNODE_PUBLICATION_HOST` is intentionally a variable, not a secret.
 
-## How to create a draft
+## Workflow actions
 
-1. Commit the markdown file and any image assets to this repository.
-2. Open GitHub Actions.
-3. Run **Create Hashnode Draft**.
-4. Enter the markdown file path, for example:
+Run **Controlled Hashnode Publish** from GitHub Actions and choose one action:
 
-```text
-posts/hermes-agent-discord-gateway.md
-```
+| Action | What it does |
+| --- | --- |
+| `validate` | Parses the markdown and prints the Hashnode payload. Does not need a token. |
+| `api-check` | Verifies token + publication API access. |
+| `draft` | Creates a draft. If a draft ID already exists, updates that draft. |
+| `update-draft` | Updates an existing draft. Requires `hashnode_draft_id` or workflow `draft_id`. |
+| `publish-draft` | Publishes an existing draft. Requires `hashnode_draft_id` or workflow `draft_id`. |
+| `publish` | Publishes a new post directly. Use carefully. |
+| `update-post` | Updates an existing published post. Requires `hashnode_article_id` or workflow `post_id`. |
 
-or, if the file is at the repo root:
+## Recommended flow
 
-```text
-hermes-agent-discord-gateway.md
-```
-
-The workflow prints the created draft metadata in the logs.
+1. Commit the markdown file and any image assets.
+2. Run `validate` first.
+3. Run `draft` with `write_back=true`.
+4. Review the draft in Hashnode.
+5. Run `publish-draft` when ready.
 
 ## Markdown frontmatter
 
@@ -85,10 +90,20 @@ subtitle: Optional subtitle
 canonical: https://original.example.com/article
 seoTitle: Optional SEO title
 seoDescription: Optional SEO description
+hashnode_action: draft
+hashnode_draft_id:
+hashnode_article_id:
 ---
 ```
 
 `title` is required.
+
+The workflow can write these fields back when `write_back=true`:
+
+```yaml
+hashnode_draft_id: <created draft id>
+hashnode_article_id: <published post id>
+```
 
 ## Images
 
@@ -109,25 +124,53 @@ For permanent production posts, using Hashnode CDN, Cloudinary, R2, or another
 stable image host is still cleaner. GitHub raw URLs are good enough for a safe
 first version of the automation.
 
-## Local dry-run
+## Local validate
 
 From the repository root:
 
 ```bash
-python scripts/hashnode_create_draft.py path/to/article.md \
-  --publication-host blog.yu.money \
-  --dry-run
+python3 scripts/hashnode_create_draft.py path/to/article.md \
+  --action validate
 ```
 
-This validates frontmatter and prints the GraphQL payload without calling
+This validates frontmatter and prints the Hashnode payload without calling
 Hashnode.
 
-## Local real draft creation
+## Local API check
 
 ```bash
 export HASHNODE_API_TOKEN="..."
 export HASHNODE_PUBLICATION_HOST="blog.yu.money"
-python scripts/hashnode_create_draft.py path/to/article.md
+python3 scripts/hashnode_create_draft.py path/to/article.md \
+  --action api-check
 ```
 
-Again, this creates a draft only. It does not publish.
+If the publication does not have API access, the script prints an explicit
+message pointing to Hashnode billing/API access instead of a raw JSON parse
+error.
+
+## Local draft / publish examples
+
+Create or update a draft:
+
+```bash
+python3 scripts/hashnode_create_draft.py path/to/article.md \
+  --action draft \
+  --write-back
+```
+
+Publish an existing draft:
+
+```bash
+python3 scripts/hashnode_create_draft.py path/to/article.md \
+  --action publish-draft \
+  --draft-id <draft id> \
+  --write-back
+```
+
+Publish directly:
+
+```bash
+python3 scripts/hashnode_create_draft.py path/to/article.md \
+  --action publish
+```

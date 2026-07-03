@@ -1,4 +1,4 @@
-name: Create Hashnode Draft
+name: Controlled Hashnode Publish
 
 on:
   workflow_dispatch:
@@ -7,47 +7,83 @@ on:
         description: "Markdown file path in this repository"
         required: true
         type: string
+      action:
+        description: "Hashnode operation to run"
+        required: true
+        default: "draft"
+        type: choice
+        options:
+          - validate
+          - api-check
+          - draft
+          - update-draft
+          - publish-draft
+          - publish
+          - update-post
       raw_ref:
         description: "Git ref used for raw GitHub image URLs. Leave blank to use the workflow ref."
         required: false
         type: string
+      draft_id:
+        description: "Draft ID override for update-draft / publish-draft"
+        required: false
+        type: string
+      post_id:
+        description: "Post ID override for update-post"
+        required: false
+        type: string
+      write_back:
+        description: "Write created draft/post IDs back to the markdown file and commit them"
+        required: true
+        default: false
+        type: boolean
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  create-draft:
-    name: Create draft from Markdown
+  hashnode:
+    name: Hashnode ${{ inputs.action }}
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Validate inputs
         shell: bash
-        run: |
-          set -euo pipefail
-          if [ ! -f "${{ inputs.markdown_file }}" ]; then
-            echo "Markdown file not found: ${{ inputs.markdown_file }}" >&2
-            exit 1
-          fi
-          if [ -z "${HASHNODE_API_TOKEN:-}" ]; then
-            echo "Missing GitHub secret: HASHNODE_API_TOKEN" >&2
-            exit 1
-          fi
-          if [ -z "${HASHNODE_PUBLICATION_ID:-}" ] && [ -z "${HASHNODE_PUBLICATION_HOST:-}" ]; then
-            echo "Set either HASHNODE_PUBLICATION_ID secret or HASHNODE_PUBLICATION_HOST variable" >&2
-            exit 1
-          fi
         env:
+          ACTION: ${{ inputs.action }}
+          MARKDOWN_FILE: ${{ inputs.markdown_file }}
           HASHNODE_API_TOKEN: ${{ secrets.HASHNODE_API_TOKEN }}
           HASHNODE_PUBLICATION_ID: ${{ secrets.HASHNODE_PUBLICATION_ID }}
           HASHNODE_PUBLICATION_HOST: ${{ vars.HASHNODE_PUBLICATION_HOST || secrets.HASHNODE_PUBLICATION_HOST }}
+        run: |
+          set -euo pipefail
+          if [ ! -f "$MARKDOWN_FILE" ]; then
+            echo "Markdown file not found: $MARKDOWN_FILE" >&2
+            exit 1
+          fi
+          if [ "$ACTION" != "validate" ] && [ -z "${HASHNODE_API_TOKEN:-}" ]; then
+            echo "Missing GitHub secret: HASHNODE_API_TOKEN" >&2
+            exit 1
+          fi
+          if [ "$ACTION" != "validate" ] && [ -z "${HASHNODE_PUBLICATION_ID:-}" ] && [ -z "${HASHNODE_PUBLICATION_HOST:-}" ]; then
+            echo "Set either HASHNODE_PUBLICATION_ID secret or HASHNODE_PUBLICATION_HOST variable" >&2
+            exit 1
+          fi
 
-      - name: Create Hashnode draft
+      - name: Run Hashnode action
+        id: hashnode
         shell: bash
         env:
+          ACTION: ${{ inputs.action }}
+          MARKDOWN_FILE: ${{ inputs.markdown_file }}
+          DRAFT_ID: ${{ inputs.draft_id }}
+          POST_ID: ${{ inputs.post_id }}
+          WRITE_BACK: ${{ inputs.write_back }}
           HASHNODE_API_TOKEN: ${{ secrets.HASHNODE_API_TOKEN }}
           HASHNODE_PUBLICATION_ID: ${{ secrets.HASHNODE_PUBLICATION_ID }}
           HASHNODE_PUBLICATION_HOST: ${{ vars.HASHNODE_PUBLICATION_HOST || secrets.HASHNODE_PUBLICATION_HOST }}
@@ -55,6 +91,35 @@ jobs:
         run: |
           set -euo pipefail
           RAW_BASE_URL="https://raw.githubusercontent.com/${{ github.repository }}/${RAW_REF}"
-          python3 scripts/hashnode_create_draft.py \
-            "${{ inputs.markdown_file }}" \
+          args=(
+            "$MARKDOWN_FILE"
+            --action "$ACTION"
             --raw-base-url "$RAW_BASE_URL"
+          )
+          if [ -n "$DRAFT_ID" ]; then
+            args+=(--draft-id "$DRAFT_ID")
+          fi
+          if [ -n "$POST_ID" ]; then
+            args+=(--post-id "$POST_ID")
+          fi
+          if [ "$WRITE_BACK" = "true" ]; then
+            args+=(--write-back)
+          fi
+          python3 scripts/hashnode_create_draft.py "${args[@]}" | tee hashnode-result.json
+
+      - name: Commit write-back changes
+        if: ${{ inputs.write_back == true }}
+        shell: bash
+        env:
+          MARKDOWN_FILE: ${{ inputs.markdown_file }}
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- "$MARKDOWN_FILE"; then
+            echo "No markdown frontmatter changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$MARKDOWN_FILE"
+          git commit -m "chore: update Hashnode metadata for $MARKDOWN_FILE"
+          git push
