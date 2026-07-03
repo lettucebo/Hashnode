@@ -1,0 +1,60 @@
+name: Create Hashnode Draft
+
+on:
+  workflow_dispatch:
+    inputs:
+      markdown_file:
+        description: "Markdown file path in this repository"
+        required: true
+        type: string
+      raw_ref:
+        description: "Git ref used for raw GitHub image URLs. Leave blank to use the workflow ref."
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  create-draft:
+    name: Create draft from Markdown
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -f "${{ inputs.markdown_file }}" ]; then
+            echo "Markdown file not found: ${{ inputs.markdown_file }}" >&2
+            exit 1
+          fi
+          if [ -z "${HASHNODE_API_TOKEN:-}" ]; then
+            echo "Missing GitHub secret: HASHNODE_API_TOKEN" >&2
+            exit 1
+          fi
+          if [ -z "${HASHNODE_PUBLICATION_ID:-}" ] && [ -z "${HASHNODE_PUBLICATION_HOST:-}" ]; then
+            echo "Set either HASHNODE_PUBLICATION_ID secret or HASHNODE_PUBLICATION_HOST variable" >&2
+            exit 1
+          fi
+        env:
+          HASHNODE_API_TOKEN: ${{ secrets.HASHNODE_API_TOKEN }}
+          HASHNODE_PUBLICATION_ID: ${{ secrets.HASHNODE_PUBLICATION_ID }}
+          HASHNODE_PUBLICATION_HOST: ${{ vars.HASHNODE_PUBLICATION_HOST || secrets.HASHNODE_PUBLICATION_HOST }}
+
+      - name: Create Hashnode draft
+        shell: bash
+        env:
+          HASHNODE_API_TOKEN: ${{ secrets.HASHNODE_API_TOKEN }}
+          HASHNODE_PUBLICATION_ID: ${{ secrets.HASHNODE_PUBLICATION_ID }}
+          HASHNODE_PUBLICATION_HOST: ${{ vars.HASHNODE_PUBLICATION_HOST || secrets.HASHNODE_PUBLICATION_HOST }}
+          RAW_REF: ${{ inputs.raw_ref || github.ref_name }}
+        run: |
+          set -euo pipefail
+          RAW_BASE_URL="https://raw.githubusercontent.com/${{ github.repository }}/${RAW_REF}"
+          python3 scripts/hashnode_create_draft.py \
+            "${{ inputs.markdown_file }}" \
+            --raw-base-url "$RAW_BASE_URL"
