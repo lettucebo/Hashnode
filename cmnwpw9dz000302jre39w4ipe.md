@@ -1,6 +1,6 @@
 ---
 title: "Windows 10 如何完整移除 OneDrive"
-datePublished: Mon Feb 27 2017 14:25:40 GMT+0000 (Coordinated Universal Time)
+datePublished: 2017-02-27T14:25:40.313Z
 cuid: cmnwpw9dz000302jre39w4ipe
 slug: windows-10-onedrive
 canonical: https://medium.com/@abc12207/windows-10-%E5%A6%82%E4%BD%95%E5%AE%8C%E6%95%B4%E7%A7%BB%E9%99%A4-onedrive-db5c85c42a40
