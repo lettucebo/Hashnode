@@ -1,6 +1,6 @@
 ---
 title: "[鐵人賽] Azure Data Service - Day 03 - Cognitive Service - 辨識 - Face API"
-datePublished: Thu Oct 18 2018 11:35:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2018-10-18T11:35:46.779Z
 cuid: cmnwpzxzc000c02lkg4f0fx0q
 slug: azure-data-service-day-03-cognitive-service-face-api
 canonical: https://medium.com/@abc12207/%E9%90%B5%E4%BA%BA%E8%B3%BD-azure-data-service-day-03-cognitive-service-%E8%BE%A8%E8%AD%98-face-api-4958dc469d0e
