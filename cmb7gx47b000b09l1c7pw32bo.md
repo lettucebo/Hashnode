@@ -1,6 +1,6 @@
 ---
 title: "讓 LLM 自動化你的 N8N 工作流程：n8n-mcp-server 安裝指南"
-datePublished: Wed May 28 2025 04:51:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-28T04:51:37.991Z
 cuid: cmb7gx47b000b09l1c7pw32bo
 slug: llm-n8n-mcp-server
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1748407343549/8deb1cc0-3a5e-47fa-8576-c12c67ae3861.png
