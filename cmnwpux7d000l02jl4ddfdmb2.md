@@ -1,6 +1,6 @@
 ---
 title: "變更 Windows 遠端桌面的連接埠 (Port)"
-datePublished: Mon Feb 27 2017 07:26:11 GMT+0000 (Coordinated Universal Time)
+datePublished: 2017-02-27T07:26:11.123Z
 cuid: cmnwpux7d000l02jl4ddfdmb2
 slug: windows-port
 canonical: https://medium.com/@abc12207/%E8%AE%8A%E6%9B%B4-windows-%E9%81%A0%E7%AB%AF%E6%A1%8C%E9%9D%A2%E7%9A%84%E9%80%A3%E6%8E%A5%E5%9F%A0-port-33423479ebcd
